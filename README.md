@@ -18,9 +18,14 @@ refs/[brand]/[name].png
   (split-test, alternate per video, never both in one video).
 - `refs/troputile/` — drink bag (Sipsway 3 colors + AliExpress), 13 Paris/Riviera locations,
   avatar group.
-- `refs/spiraledazur/` — not yet populated. Existing refs live in
-  `MY CONTENT/HANDBAG/REFERENCES-HANDBAG/` under different filenames (no brand-prefix
-  convention applied yet) — needs a rename pass before mirroring here.
+- `refs/spiraledazur/` — handbag product/avatar/location refs, mirrored under their
+  **original filenames** (`SAC-COWGIRL-REF1.png`, `MEUF-HANDBAG-V2.png`,
+  `MONOPRIX-RAYON.png`, etc.) — these predate the `[brand]-[type]-[name]` convention and
+  were not renamed here (uncertain 1:1 mapping to the Higgsfield element names in the
+  registry; renaming blind risked mislabeling a reference). Match by the self-descriptive
+  filename until someone confirms the exact rename mapping against
+  `higgsfield-elements-registry.md`.
+- `refs/carblazz/`, `refs/whiskeysmok/` — no refs yet, product not chosen for either brand.
 
 ## Usage in a ChatGPT scheduled task
 
