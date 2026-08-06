@@ -1,0 +1,65 @@
+name: Build connector-readable reference sidecars
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'refs/**/*.png'
+      - '.github/workflows/build-reference-sidecars.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reference-sidecars-main
+  cancel-in-progress: false
+
+jobs:
+  build-sidecars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Encode PNG references as text sidecars
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf bridge-b64
+          mkdir -p bridge-b64
+          : > bridge-b64/INDEX.tsv
+
+          while IFS= read -r -d '' file; do
+            rel="${file#refs/}"
+            out="bridge-b64/${rel}.b64"
+            mkdir -p "$(dirname "$out")"
+
+            sig="$(xxd -p -l 8 "$file")"
+            if [ "$sig" != "89504e470d0a1a0a" ]; then
+              echo "Invalid PNG signature: $file ($sig)" >&2
+              exit 1
+            fi
+
+            base64 -w 0 "$file" > "$out"
+            printf '\n' >> "$out"
+            sha256="$(sha256sum "$file" | awk '{print $1}')"
+            bytes="$(wc -c < "$file" | tr -d ' ')"
+            printf '%s\t%s\t%s\t%s\n' "$rel" "$sha256" "$bytes" "$sig" >> bridge-b64/INDEX.tsv
+          done < <(find refs -type f -name '*.png' -print0 | sort -z)
+
+      - name: Commit sidecars when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add bridge-b64
+          if git diff --cached --quiet; then
+            echo 'No sidecar changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh connector-readable PNG sidecars'
+          git push
