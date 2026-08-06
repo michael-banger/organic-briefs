@@ -34,7 +34,24 @@ Board 3/3 — role: desire / context / soft close
   seedance_prompt: "3-panel 16:9 storyboard, same finished cowgirl bag, French retail location, same daylight throughout. Panel 1 (0-3s): the finished cowgirl bag held up in the atelier, proud restrained framing. Panel 2 (3-5s): founder walking into a French retail store aisle (Monoprix-style), bag on her shoulder, natural everyday context. Panel 3 (5-8s): close-up of the bag in the retail aisle, credible French shopping scene, product hero but still iPhone-native realism. No text, no logo, no watermark, no music, no subtitles, max 3 references."
   reference_slots: "@Image 1 = SAC-COWGIRL-REF2.png · @Image 2 = MONOPRIX-RAYON.png"
 
-## POST 2 / POST 3
-Not produced tonight (catch-up scope = POST 1 only for 2026-08-06). Tonight's 22:00 run
-produces the remaining slots for 2026-08-07 at full volume (3/day) — vary product
-(Four Tout Bag / Sac Bague Or) and angle.
+## POST 2 (EXCEPTIONAL 2026-08-06 — storyboard format, lane-agnostic: usable Kling CLI or Seedance manual)
+- account: @spiraledazur — confirmed, OK to produce/post.
+- product: Four Tout Bag (vs Sac Cowgirl in POST 1), avatar grandma/mentor (vs young founder in POST 1)
+- pattern: P4 + P1 + P5 (même formule, produit + avatar différents — round 0 split-test)
+- split_test_variable: produit + avatar
+- concept: Grand-mère/mentor qui présente le Four Tout Bag fini dans le rayon Monoprix, contexte retail FR crédible, tribu esthétique "savoir-faire" plutôt que fandom jeune — validation-question en clôture (pattern historique gagnant du performance-tracker: "vous en porteriez un?").
+- hook_overlay: "Le sac que ma grand-mère aurait fait"
+- cta_keyword: SAC
+- caption: "Honnêtement vous en porteriez un ?"
+- hashtags: ["#faitmain", "#crochet", "#artisanat", "#savoirfaire"]
+- sound_mood: silence + ambiance naturelle — pas de musique
+- duration_target_s: 8
+
+### Storyboard (3 boards, ~3s/board)
+Board 1 (0-3s) — reveal: grandma/mentor holding the finished Four Tout Bag in a French retail aisle
+  refs: ["GRANDMA-HANDBAG-V2.png", "MONOPRIX-RAYON.png"]
+  prompt: "3-panel 16:9 storyboard, photorealistic phone-shot realism, same French retail store aisle (Monoprix-style), same older woman, same daylight throughout. Panel 1 (0-3s): mentor/grandmother figure holding up the finished crochet Four Tout Bag near a retail shelf, warm proud expression. Panel 2 (3-5s): close detail pan on the bag's handmade texture. Panel 3 (5-8s): she looks to camera, gentle validation-question expression. No text rendered in image, no logo, no watermark, no music, no subtitles, max 3 references."
+  reference_slots: "@Image 1 = GRANDMA-HANDBAG-V2.png · @Image 2 = FOUR-TOUT-BAG.png · @Image 3 = MONOPRIX-RAYON.png"
+
+## POST 3
+Not planned today (exceptional cap = 2 videos/account, not 3).

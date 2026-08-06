@@ -34,6 +34,24 @@ Board 3/3 — role: desire / context / soft close
   seedance_prompt: "3-panel 16:9 storyboard, same group, aspirational beach-club daylight setting, same lighting throughout. Panel 1 (0-3s): wide shot of the group relaxed at a beach club, drinks in hand, bag visible on one friend's shoulder. Panel 2 (3-5s): friend uses the bag as a normal handbag, reaching for sunglasses inside, showing it still functions normally. Panel 3 (5-8s): group laughing together, golden hour light, bag prominently but naturally in frame. No text, no logo, no watermark, no music, no subtitles, max 3 references."
   reference_slots: "@Image 1 = tro-av-groupe · @Image 2 = tro-lieu-beach-club-riviera-jour"
 
-## POST 2 / POST 3
-Not produced tonight (catch-up scope = POST 1 only for 2026-08-06). Tonight's 22:00 run
-produces the remaining slots for 2026-08-07 at full volume (3/day) — vary color/location.
+## POST 2 (EXCEPTIONAL 2026-08-06 — storyboard format, lane-agnostic: usable Kling CLI or Seedance manual)
+- account: @troputile — STATUS: ACCOUNT_PENDING_CONFIRMATION. Prep only, DO NOT POST until Yann confirms.
+- product: sac boisson Sipsway, coloris coral pink (vs coral blue in POST 1)
+- pattern: P5 + P1 + P4 (même formule, lieu différent — round 0 split-test contexte)
+- split_test_variable: lieu (plage → festival)
+- concept: Groupe d'amis à un festival (Solidays), quelqu'un renverse presque une boisson en jonglant avec plusieurs gobelets, reveal du sac Sipsway coral pink qui règle le problème — même mécanique P5/P1/P4, contexte festival au lieu de plage pour varier l'algo.
+- hook_overlay: "Le sac qui a sauvé notre festival"
+- cta_keyword: FESTIVAL
+- caption: "Comment 'FESTIVAL' pour ne plus jongler avec tes boissons"
+- hashtags: ["#festival", "#solidays", "#sacete", "#astucevoyage"]
+- sound_mood: silence + ambiance festival naturelle — pas de musique
+- duration_target_s: 8
+
+### Storyboard (3 boards, ~3s/board)
+Board 1 (0-3s) — tension: friend juggling multiple drink cups at a festival, nearly spilling
+  refs: ["tro-av-groupe", "tro-lieu-festival-solidays"]
+  prompt: "3-panel 16:9 storyboard, photorealistic phone-shot realism, same festival location, same group of 2-3 friends, same lighting throughout. Panel 1 (0-3s): friends at a sunny festival, one juggling several drink cups, nearly spilling, mild comedic tension. Panel 2 (3-5s): friend notices another holding the coral-pink Sipsway drink bag, curious look. Panel 3 (5-8s): close reveal of the coral-pink drink bag being used easily, relief and smiles. No text rendered in image, no logo, no watermark, no music, no subtitles, max 3 references."
+  reference_slots: "@Image 1 = tro-av-groupe · @Image 2 = tro-lieu-festival-solidays · @Image 3 = tro-pr-sacboisson-sipsway-coralpink"
+
+## POST 3
+Not planned today (exceptional cap = 2 videos/account, not 3).

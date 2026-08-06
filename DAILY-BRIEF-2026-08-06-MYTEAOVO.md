@@ -40,7 +40,25 @@ market: FR
    refs: ["myt-pr-pot-style2", "myt-prop-plante", "myt-lieu-salon"]
    duration_s: 5
 
-## POST 2 / POST 3
-Not produced tonight (catch-up scope = POST 1 only for 2026-08-06). Tonight's 22:00 run
-produces the remaining slots for 2026-08-07 at full volume (3/day) — alternate to avatar
-Julie for POST 2 per the split-test.
+## POST 2 (EXCEPTIONAL 2026-08-06 — storyboard format, lane-agnostic: usable Kling CLI or Seedance manual)
+- account: @myteaovo — confirmed, OK to produce/post.
+- product: pot poterie style1 (airplant/fern), avatar Julie (split-test B vs Clémence in POST 1)
+- pattern: P6 + P7 + P1 (même formule, avatar différent — round 0 split-test avatar)
+- split_test_variable: avatar (Clémence → Julie)
+- concept: Même mécanique sauvetage-plante que POST 1 mais pot style1 + mains de Julie, pour isoler l'avatar comme variable et laisser les vues trancher.
+- hook_overlay: "Personne ne pensait qu'elle allait s'en remettre..."
+- cta_keyword: PLANTE
+- caption: "Comment 'PLANTE' pour sauver la tienne aussi"
+- hashtags: ["#plante", "#deco", "#poterie", "#interieur"]
+- sound_mood: silence + ambiance salon calme — pas de musique
+- duration_target_s: 9
+
+### Storyboard (3 boards, 3s/board)
+Board 1 (0-3s) — tension: plante fanée dans un pot terne, Julie qui la regarde, inquiète
+  refs: ["myt-av-julie", "myt-prop-plante", "myt-lieu-salon"]
+  prompt: "3-panel 16:9 storyboard, photorealistic phone-shot realism, same French living room, same young woman (Julie), same daylight throughout. Panel 1 (0-3s): Julie looking concerned at a wilting succulent in a plain dull pot. Panel 2 (3-6s): her hands carefully repotting it into the new style1 decorative pot, soil visible. Panel 3 (6-9s): wide shot, plant now vibrant in its new pot on a shelf, Julie smiling softly. No text rendered in image, no logo, no watermark, no music, no subtitles, max 3 references."
+  reference_slots: "@Image 1 = myt-av-julie · @Image 2 = myt-pr-pot-style1 · @Image 3 = myt-prop-plante"
+kling_split (if lane=KLING): clip1 = panel 1 (3s), clip2 = panel 2 (3s), clip3 = panel 3 (3s), natural sound only throughout
+
+## POST 3
+Not planned today (exceptional cap = 2 videos/account, not 3).

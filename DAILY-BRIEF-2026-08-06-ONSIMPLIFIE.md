@@ -45,6 +45,25 @@ market: FR
    refs: ["ons-prop-chien-golden", "ons-lieu-sdb"]
    duration_s: 5
 
-## POST 2 / POST 3
-Not produced tonight (catch-up scope = POST 1 only for 2026-08-06). Tonight's 22:00 run
-produces the remaining slots for 2026-08-07 at full volume (3/day).
+## POST 2 (EXCEPTIONAL 2026-08-06 — storyboard format, lane-agnostic: usable Kling CLI or Seedance manual)
+- account: @onsimplifie — STATUS: ACCOUNT_PENDING_CONFIRMATION. Prep only, DO NOT POST until Yann confirms.
+- product: douche-chien (portable dog wash stand), variant blue, secondary dog (chien-petit) for variety vs POST 1
+- pattern: P7 + P3 + P6 (même formule, hook + chien différents — round 0 split-test)
+- split_test_variable: hook + chien (golden→petit)
+- concept: Petit chien poil frisé qui panique dès qu'il voit l'eau couler, propriétaire hésitant, puis support pliant bleu qui le stabilise et le calme en quelques secondes — variation du POST 1 avec un chien plus "fragile visuellement" pour renforcer P6.
+- hook_overlay: "Il tremblait avant chaque bain... jusqu'à ça"
+- cta_keyword: TOUTOU
+- caption: "Comment 'TOUTOU' si ton chien flippe aussi du bain"
+- hashtags: ["#chien", "#doglover", "#bainchien", "#astucechien"]
+- sound_mood: silence + bruits naturels (eau, chien, tissu) — pas de musique
+- duration_target_s: 9
+
+### Storyboard (3 boards, 3s/board)
+Board 1 (0-3s) — tension: petit chien poil frisé qui recule et tremble devant l'eau qui coule dans la baignoire, propriétaire (mains seules) hésitant
+  refs: ["ons-prop-chien-petit", "ons-lieu-sdb"]
+  prompt: "3-panel 16:9 storyboard, photorealistic phone-shot realism, same French bathroom, same small curly-haired dog, same daylight throughout. Panel 1 (0-3s): small curly dog backing away and trembling as bathtub water runs, owner's hands only visible, hesitant. Panel 2 (3-6s): hands unfold a blue mesh folding dog wash stand, oval paw holes visible, set it in the tub. Panel 3 (6-9s): dog stands calm with paws through the holes, relaxed, water gently running. No text rendered in image, no logo, no watermark, no music, no subtitles, max 3 references."
+  reference_slots: "@Image 1 = ons-prop-chien-petit · @Image 2 = ons-pr-douchechien-blue · @Image 3 = ons-lieu-sdb"
+kling_split (if lane=KLING): clip1 = panel 1 (3s, natural sound), clip2 = panel 2 (3s, metal/fabric sound), clip3 = panel 3 (3s, water sound)
+
+## POST 3
+Not planned today (exceptional cap = 2 videos/account, not 3).
