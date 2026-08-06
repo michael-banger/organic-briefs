@@ -9,5 +9,10 @@ Manifest read: OK
 Onsimplifie brief read: OK
 Myteaovo brief read: OK
 GitHub write test: OK
-Image generation: IN_PROGRESS
-PNG verification: PENDING
+Higgsfield connector availability: OK
+Private PNG binary bridge: FAILED
+Image generation: NOT STARTED
+PNG verification: NOT APPLICABLE
+Final status: `BLOCKED_PRIVATE_REFERENCE_BRIDGE`
+
+Technical detail: GitHub `fetch_file` with `encoding=base64` returned empty PNG content; `fetch_blob` attempted UTF-8 decoding and failed on the PNG signature. Exact private references therefore could not be uploaded into Higgsfield.
