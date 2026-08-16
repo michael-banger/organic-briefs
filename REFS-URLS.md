@@ -10,6 +10,11 @@ Images PNG directement lisibles. Remplace bridge-b64/*.b64 (contournement du rep
 - `HANBAG-REF-3.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANBAG-REF-3.png
 - `HANDBAG-AVATARS-REF.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANDBAG-AVATARS-REF.png
 - `LEMON-BLOSSOM.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/LEMON-BLOSSOM.png
+- `MARGUERITE-BLANC.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-BLANC.png
+- `MARGUERITE-BLEU-MARINE.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-BLEU-MARINE.png
+- `MARGUERITE-JAUNE.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-JAUNE.png
+- `MARGUERITE-VERT.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-VERT.png
+- `MARGUERITE-VIOLET.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-VIOLET.png
 - `MEUF-HANDBAG-V2.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MEUF-HANDBAG-V2.png
 - `MONOPRIX-RAYON.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MONOPRIX-RAYON.png
 - `NEW-HANDBAG-ALL-COLORS.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/NEW-HANDBAG-ALL-COLORS.png

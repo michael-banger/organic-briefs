@@ -1,5 +1,15 @@
 # Manifest — what each reference file is, exactly
 
+> **Aucun Element Higgsfield dans le workflow automatisé.** Les Elements ne servent que lorsque
+> Yann génère lui-même, à la main, dans l'interface web. CLI, MCP et ChatGPT passent
+> **exclusivement** par des images de référence attachées, résolues depuis les URL brutes de
+> `refs/[marque]/`. Sans Element pour verrouiller l'identité du produit, la fidélité repose
+> entièrement sur la start frame : elle est jugée en vision avant le prompt vidéo, et régénérée
+> si elle rate une contrainte dure du breakdown.
+>
+> Lire d'abord `product-breakdowns/[MARQUE].md` — il dit ce qu'est le produit et ce qui ne doit
+> jamais dériver.
+
 Read this before fetching any file. Filenames already encode the type via prefix:
 `pr` = product, `av` = avatar, `lieu` = location, `prop` = prop (in-scene, not sold).
 This file spells out what each one shows and which product it belongs to, so nothing is
@@ -50,6 +60,21 @@ These predate the naming convention above and were **not renamed** — filenames
 original ones, matched by their self-descriptive names. If in doubt about which one to use,
 check `higgsfield-elements-registry.md` in the vault (not in this repo) for the authoritative
 product-to-element mapping, or ask Yann.
+
+**Produit courant = sac crochet Marguerite.** Cinq coloris, ajoutés le 2026-08-17. Toujours
+attacher **deux** références ensemble : `FOUR-TOUT-BAG.png` pour la géométrie **et** la planche du
+coloris. `MARGUERITE-BLANC` = base crochet beige avec fleurs blanches, pas un blanc uni — ne jamais
+la rejeter pour ça.
+
+| File | Type | What it is |
+|---|---|---|
+| `MARGUERITE-BLANC.png` | Product colorway | base beige/tan, fleurs blanches |
+| `MARGUERITE-BLEU-MARINE.png` | Product colorway | bleu marine |
+| `MARGUERITE-JAUNE.png` | Product colorway | jaune |
+| `MARGUERITE-VERT.png` | Product colorway | vert sauge |
+| `MARGUERITE-VIOLET.png` | Product colorway | violet |
+
+Fichiers plus anciens, antérieurs à la convention de nommage :
 
 | File | Likely content (self-descriptive, unverified 1:1 mapping) |
 |---|---|
