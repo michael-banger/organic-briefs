@@ -62,3 +62,9 @@ Images PNG directement lisibles. Remplace bridge-b64/*.b64 (contournement du rep
 - `myt-pr-pot-style3.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/myteaovo/myt-pr-pot-style3.png
 - `myt-prop-plante.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/myteaovo/myt-prop-plante.png
 
+
+## carblazz
+
+- `horloge-bois-f1.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-bois-f1.png
+- `horloge-compteur.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-compteur.png
+- `horloge-packaging.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-packaging.png
