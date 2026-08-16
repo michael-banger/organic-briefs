@@ -2,7 +2,6 @@
 
 - **Marché** : FR.
 - **Produit** : douche / bain portable pour chien, sur pieds pliants.
-- **Prix de vente, prix d'achat, fournisseur, dimensions, délai** : non établis.
 - **Statut** : froid, refs prêtes, hors périmètre des nuits du 17 et 18/08.
 
 ## Ce que le produit est, physiquement

@@ -2,7 +2,6 @@
 
 - **Marché** : FR / US.
 - **Produit** : sac à boisson — sac de transport isotherme pour boissons.
-- **Prix de vente, prix d'achat, fournisseur, dimensions, délai** : non établis.
 - **Statut** : froid, refs prêtes, hors périmètre des nuits du 17 et 18/08.
 
 > Attention : une note de juin attribuait « Ear Cleaner » à ce compte. **Ce produit est mort.**

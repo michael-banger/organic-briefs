@@ -4,7 +4,6 @@
 - **Produit** : horloge murale décorative sur thème automobile.
 - **Niche** : **décoration de maison pour passionnés d'automobile.** Le client n'a pas forcément
   la voiture. Il veut afficher sa passion chez lui.
-- **Prix de vente** : non établi. **Prix d'achat, fournisseur, dimensions, délai** : non établis.
 - **Statut** : lancement, priorité 1 à égalité avec Spiraledazur.
 
 ## Ce que le produit est, physiquement

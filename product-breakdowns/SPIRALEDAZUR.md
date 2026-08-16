@@ -2,7 +2,7 @@
 
 - **Marché** : FR, français parlé naturel.
 - **Produit** : sac en crochet fait main, modèle **Marguerite**.
-- **Prix de vente** : **39,99 €**. **Prix d'achat, fournisseur, dimensions, délai** : non établis.
+- **Prix affiché en vidéo** : **39,99 €** — un plan d'une seconde, en fin de séquence.
 - **Statut** : actif, priorité 1. Seul compte du portefeuille avec un post gagnant enregistré.
 - **Orthographe de la marque** : **Spiraledazur**. Pas « Spiradazur ». Toutes les générations
   antérieures au 14/08 portaient la faute.

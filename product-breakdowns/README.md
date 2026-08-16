@@ -34,8 +34,8 @@ suivantes, non négociables :
 2. Une start frame qui rate une contrainte dure du breakdown est **régénérée**, pas compensée au
    prompt vidéo.
 
-## Ce que ces fichiers ne contiennent pas
+## Périmètre de ces fichiers
 
-Prix d'achat, fournisseurs, dimensions et délais ne sont pas renseignés quand ils n'ont pas été
-établis. Ils sont marqués « non établi ». Ne pas les deviner : une donnée inventée dans un
-breakdown se propage dans tous les briefs suivants.
+Ce sont des breakdowns **de génération**, pas des fiches d'achat. Prix d'achat, fournisseurs,
+dimensions et délais n'y figurent pas : ils ne changent rien à une image ni à un prompt. Le seul
+prix qui apparaît est celui affiché à l'écran, quand une vidéo doit le montrer.

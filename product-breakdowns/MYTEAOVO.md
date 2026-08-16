@@ -2,7 +2,6 @@
 
 - **Marché** : FR.
 - **Produit** : pot de plante décoratif sculpté, céramique mate.
-- **Prix de vente, prix d'achat, fournisseur, dimensions, délai** : non établis.
 - **Statut** : froid, refs prêtes, hors périmètre des nuits du 17 et 18/08.
 
 > Attention : une note de juin attribuait « Tea Brand » à ce compte. **Ce produit est mort.**
