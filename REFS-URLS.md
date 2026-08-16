@@ -67,4 +67,7 @@ Images PNG directement lisibles. Remplace bridge-b64/*.b64 (contournement du rep
 
 - `horloge-bois-f1.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-bois-f1.png
 - `horloge-compteur.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-compteur.png
+- `horloge-carbone.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-carbone.png
+- `horloge-metal-noir.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-metal-noir.png
+- `horloge-metal-rouge.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-metal-rouge.png
 - `horloge-packaging.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/carblazz/horloge-packaging.png

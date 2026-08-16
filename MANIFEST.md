@@ -67,18 +67,24 @@ Added 2026-08-16. Niche = **home decor for car enthusiasts**, not in-car accesso
 Filenames match the Higgsfield element slugs exactly (`horloge-compteur`, `horloge-bois-f1`,
 `horloge-packaging`) — never rename, never paraphrase these slugs.
 
+All five colorways are complete 7-view sheets, same layout every time: large front, 3/4 left,
+pure side profile (shows the shallow depth + wall mount), small-scale front, angled wall shot,
+macro on the dial center, macro on one numeral sector. Matte grey-beige wall on every plate.
+
 | File | Type | What it is |
 |---|---|---|
-| `horloge-compteur.png` | Product | 7-view sheet. Wall clock built as a vintage car speedometer: black dial, white markers + white numerals 10-120 km/h, orange dot accents at 12/3/6/9, "NISMO" wordmark under the 12, a white odometer window reading `170884` and a second window reading `1984`, thin white sweep second hand, slim black bezel, matte grey-beige wall. Views: front, 3/4 left, pure side profile (shows the shallow depth + wall mount), small-scale front, angled wall shot, macro on the dial center, macro on the 80-90 sector. |
-| `horloge-bois-f1.png` | Product | Wood/F1-themed clock variant. Same reference-sheet format. |
-| `horloge-packaging.png` | Packaging | Retail box for the clock — use for unboxing/delivery scenes only, never as the hero product. |
+| `horloge-carbone.png` | Product | **Hero variant.** Wall clock built as a carbon-fibre alloy wheel seen face-on: glossy woven-carbon spokes, a real brake disc and a **yellow brake caliper** visible behind the spokes, slim gold hour/minute/second hands, white numerals 1-12 around the rim, black bezel. The most visually striking of the five — best choice for a scroll-stopping opening shot. No third-party wordmark. |
+| `horloge-metal-noir.png` | Product | Brake-disc/metal colorway, black. |
+| `horloge-metal-rouge.png` | Product | Brake-disc/metal colorway, red. |
+| `horloge-compteur.png` | Product | Wall clock built as a vintage car speedometer: black dial, white markers + white numerals 10-120 km/h, orange dot accents at 12/3/6/9, an automotive wordmark under the 12, a white odometer window reading `170884` and a second window reading `1984`, thin white sweep second hand, slim black bezel. |
+| `horloge-bois-f1.png` | Product | Wood / F1-themed colorway. |
+| `horloge-packaging.png` | Packaging | Retail box — unboxing/delivery scenes only, never the hero product. |
 
-Missing, must be produced before those variants can be used in any generation:
-**`horloge-carbone`, `horloge-metal-noir`, `horloge-metal-rouge` have NO clean reference sheet.**
-The only files that exist for them are screenshots of the Higgsfield "New Element" dialog
-(full app UI around a small thumbnail grid) — those are unusable as references and were
-deliberately NOT pushed here. Produce real 7-view sheets with `/reference-sheet-ai-gen`
-from `RAW-NE PAS UTILISER/CARBLAZZ-HORLOGES-REDLINE/*.webp` first.
+One colorway per video. Never mix two clocks in the same video.
+
+Do **not** use the files under `ELEMENTS HIGGSFIELD/` on Yann's Mac: they are screenshots of the
+Higgsfield "New Element" dialog, full app UI around a 300 px thumbnail. Only the plates above are
+references.
 
 Trademark note: the compteur dial carries a third-party automotive wordmark. Keep it as-is when
 reproducing the real product, but never build a hook, caption, or brand claim around that mark.
