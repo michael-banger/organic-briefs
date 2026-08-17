@@ -7,7 +7,7 @@ génération.
 
 ## Priorité, au 2026-08-17
 
-Portefeuille resserré à **3 comptes actifs** par décision de Yann du 2026-08-17.
+Portefeuille resserré à **4 comptes actifs** par décision de Yann du 2026-08-17.
 
 | Rang | Compte | Produit | État |
 |---|---|---|---|
@@ -15,7 +15,7 @@ Portefeuille resserré à **3 comptes actifs** par décision de Yann du 2026-08-
 | **1** | `@carblazz` | horloges murales déco auto | actif, lancement — priorité égale à Spiraledazur |
 | 3 | `@onsimplifie` | douche chien portable | actif, refs prêtes |
 | — | `@troputile` | sac boisson | **EN PAUSE.** Compte Instagram archivé, produit abandonné. Ne rien produire. Un nouveau produit sera cherché plus tard. |
-| — | `@myteaovo` | pots de plante déco | **statut à confirmer par Yann** — non cité dans l'arbitrage du 17/08. Ne rien produire d'ici là. |
+| 4 | `@myteaovo` | pots de plante déco | actif — confirmé par Yann le 17/08 |
 | — | `@whiskeysmok` | non tranché | ne rien produire |
 
 **Périmètre des nuits du 17 et du 18/08** : `@spiraledazur` et `@carblazz` uniquement.

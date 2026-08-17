@@ -5,7 +5,9 @@ Même cadre que le brief du 17/08, mêmes verrous. Ne relire ici que ce qui chan
 - Marché **US**. Lane **KLING**. 3 posts, un coloris par post, jamais deux horloges dans une vidéo.
 - Coloris de ce jour : `horloge-bois-f1`, `horloge-metal-noir`, et le packaging en scène d'ouverture
   du post 3 seulement.
-- **Aucun CTA à mot-clé.** CTA bio explicite. Aucun texte écrit dans l'image.
+- **CTA à mot-clé maintenu** (ManyChat), mot-clé marque = **CLOCK**, caption US :
+  `Comment "CLOCK" for the link`. Exception au post 3, bait de partage sans mot-clé.
+  Aucun texte écrit dans l'image.
 - « this clock » dans tous les prompts. Jamais de nom de marque, jamais le nom d'un concurrent.
 - 3 références maximum. Passe vision obligatoire sur chaque start frame avant le prompt vidéo.
 - Montage cible 8-12 s. Visage jamais entier dans le cadre.
@@ -25,7 +27,7 @@ Même cadre que le brief du 17/08, mêmes verrous. Ne relire ici que ce qui chan
 - `lane: KLING` · `post_id: 1` · `colorway: horloge-bois-f1` · `pattern: P4`
 - `hook_overlay:` **"Every F1 fan I know has the same empty wall"**
 - `caption:` "Race weekend starts on the wall. 🕒 Link in bio"
-- `cta:` bio · `hashtags:` #f1 #formula1 #racefans #cardecor #mancave
+- `cta_keyword:` CLOCK — `Comment "CLOCK" for the link` · `hashtags:` #f1 #formula1 #racefans #cardecor #mancave
 
 **Scène 1** — décor sans produit
 > A living room on a race weekend evening, a large TV on mute showing blurred motorsport colours,
@@ -56,7 +58,7 @@ l'aiguille avance, aucun morphing du cadran.
 - `lane: KLING` · `post_id: 2` · `colorway: horloge-metal-noir` · `pattern: P1`
 - `hook_overlay:` **"Nobody notices the wall until it's this one"**
 - `caption:` "Brushed metal, brake-disc face, zero noise. 🕒 Link in bio"
-- `cta:` bio · `hashtags:` #mancave #cardecor #carguy #interiordesign #garagegoals
+- `cta_keyword:` CLOCK — `Comment "CLOCK" for the link` · `hashtags:` #mancave #cardecor #carguy #interiordesign #garagegoals
 
 **Scène 1**
 > A dark minimal home office at night, single desk lamp, closed blinds, deep shadows, a bare
@@ -86,7 +88,7 @@ Vidéo : 1. la lampe vacille à peine, caméra fixe ; 2. travelling avant lent v
 - `lane: KLING` · `post_id: 3` · `colorway: horloge-metal-noir` · `pattern: P5`
 - `hook_overlay:` **"Send this to whoever still buys him socks"**
 - `caption:` "One box. Solved. 🕒 Link in bio"
-- `cta:` bio, jamais de mot-clé sur un bait de partage · `hashtags:` #giftforhim #cardecor #carguy #birthdaygift
+- `cta_keyword:` aucun — bait de partage, jamais mélangé avec un mot-clé ManyChat · `hashtags:` #giftforhim #cardecor #carguy #birthdaygift
 
 **Scène 1** — la boîte
 > A closed retail box sitting on a wooden table in warm daylight, hands not yet touching it.

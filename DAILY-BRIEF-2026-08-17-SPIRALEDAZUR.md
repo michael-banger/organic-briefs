@@ -46,12 +46,16 @@ aux anciens rushs. Tout contenu neuf reste en 1080x1920 à 30 fps.
 7. Durée cible du montage : **8-12 s**. La médiane du batch viral d'août est à 10 s, aucune vidéo
    longue n'y figure.
 
-## Règle de CTA — changement, sur les 3 posts
+## Règle de CTA — mise à jour du 2026-08-17
 
-**Le CTA à mot-clé est retiré.** « Commentez "Soleil" » promet un DM automatique qui n'existe pas :
-OpenReply n'est pas déployé. C'est la première cause identifiée des ~320 K vues sans une vente.
-Tant qu'aucun auto-DM ne tourne : **CTA bio explicite**, et le lien bio doit pointer sur la fiche
-produit du sac, pas sur l'accueil de la boutique. À vérifier avant publication.
+**Le CTA à mot-clé est maintenu.** Yann confirme que le mot-clé déclenche ManyChat.
+
+Format d'écriture verrouillé : le mot-clé s'écrit entre **guillemets français « »**, jamais entre
+apostrophes simples, jamais entre guillemets droits ou anglais.
+Exemple : `Commentez « Soleil » pour recevoir le lien`.
+
+Le lien bio doit pointer sur la fiche produit du sac, pas sur l'accueil de la boutique — à
+vérifier avant publication, c'est la seconde fuite possible sur les ~320 K vues sans vente.
 
 Chaque vidéo porte **un plan de 1 s montrant le prix**, en fin de séquence, jamais en ouverture.
 39,99 € sur un sac crochet fait main est un argument, pas une objection. Non dit, le spectateur
@@ -65,7 +69,7 @@ suppose « artisanal donc cher » et ne cherche pas le lien.
   celui des posts 2 et 3.
 - `hook_overlay:` **"Arrête, personne va acheter ça 🤣"**
 - `caption:` "Vous en pensez quoi ? 🥹"
-- `cta:` bio, pas de mot-clé
+- `cta_keyword:` Soleil — `Commentez « Soleil » pour recevoir le lien`
 - `hashtags:` #faitmain #crochet #sacenchochet #petitecreatrice
 
 C'est le **seul post gagnant enregistré du compte**. Il se décline, il ne se remplace pas : même
@@ -77,8 +81,8 @@ puis le sac de près qui contredit l'objection, puis le prix.
 - `colorway:` distinct du post 1.
 - `hook_overlay:` **"Envoie ça à celle qui adore les sacs faits main"**
 - `caption:` "Envoie ça à ta best qui collectionne les sacs 👜✨"
-- `cta:` bio, pas de mot-clé. Le bait « envoie ça à » vise le partage en DM, pas le commentaire —
-  ne jamais le mélanger avec un CTA à mot-clé, même une fois l'auto-DM en place.
+- `cta_keyword:` aucun sur ce post — le bait « envoie ça à » vise le partage en DM, pas le
+  commentaire. Ne jamais mélanger un bait de partage avec un mot-clé ManyChat.
 - `hashtags:` #sacfaitmain #crochet #cadeaufille #bestfriend
 
 ## POST 3 — Aspirationnel — pattern P1
@@ -86,7 +90,7 @@ puis le sac de près qui contredit l'objection, puis le prix.
 - `colorway:` distinct des posts 1 et 2.
 - `hook_overlay:` **"Le sac qu'on croise en terrasse à Paris"**
 - `caption:` "Le sac qu'on croise en terrasse à Paris ☕️"
-- `cta:` bio, pas de mot-clé
+- `cta_keyword:` Soleil — `Commentez « Soleil » pour recevoir le lien`
 - `hashtags:` #paris #terrasse #sacencrochet #modeete
 
 Ouvre sur le lieu, pas sur le produit — plan 1 l'environnement reconnaissable, plan 2 le sac qui

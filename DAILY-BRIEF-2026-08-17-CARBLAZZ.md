@@ -12,8 +12,10 @@
 
 ## Règles verrouillées qui s'appliquent à ce brief
 
-- **Pas de CTA à mot-clé.** Aucun auto-DM ne tourne côté Yann, donc « Comment "X" » promet une
-  réponse que personne n'enverra. CTA bio explicite uniquement, sur les 3 posts.
+- **CTA à mot-clé maintenu** — Yann confirme le 17/08 que le mot-clé déclenche ManyChat.
+  Mot-clé unique pour la marque : **CLOCK**. Caption US : `Comment "CLOCK" for the link`.
+  Exception au post 3 : un bait « send this to » vise le partage en DM, il ne se mélange jamais
+  avec un mot-clé.
 - Tout prompt de génération dit **« this clock »**, jamais « a clock like… », jamais le nom de la
   marque, jamais le nom du concurrent.
 - Slugs de référence cités **verbatim** : `horloge-carbone`, `horloge-compteur`, `horloge-metal-rouge`.
@@ -44,7 +46,9 @@ sous 20 % de visage à l'écran, et le meilleur est à 0 %.
 - `pattern: P1`
 - `hook_overlay:` **"POV: your garage has better taste than your living room"**
 - `caption:` "Carbon fibre, brake caliper, real wheel spokes. It just tells time too. 🕒 Link in bio"
-- `cta_keyword:` aucun — CTA bio
+- `cta_keyword:` **CLOCK** — CTA mot-clé ManyChat, en anglais : `Comment "CLOCK" for the link`.
+  Marché US : guillemets droits anglais. La règle des guillemets français « » ne vaut que pour les
+  captions françaises.
 - `hashtags:` #carguy #garagegoals #cardecor #carenthusiast #mancave
 
 Mécanique : on ouvre sur l'environnement, pas sur le produit. C'est la leçon du reel à 6,67 M —
@@ -88,7 +92,9 @@ Prompt vidéo, après passe vision — intention à réajuster sur l'image réel
 - `pattern: P4`
 - `hook_overlay:` **"I told him it was a speedometer. He believed me for 3 hours."**
 - `caption:` "It's a clock. It has always been a clock. 🕒 Link in bio"
-- `cta_keyword:` aucun — CTA bio
+- `cta_keyword:` **CLOCK** — CTA mot-clé ManyChat, en anglais : `Comment "CLOCK" for the link`.
+  Marché US : guillemets droits anglais. La règle des guillemets français « » ne vaut que pour les
+  captions françaises.
 - `hashtags:` #jdm #carguy #cardecor #petrolhead #giftforhim
 
 Mécanique du fake-out reveal, celle du reel à 967 K : on laisse croire à autre chose, puis on
