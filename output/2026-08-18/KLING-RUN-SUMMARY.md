@@ -4,7 +4,8 @@
 - GitHub connector: READ OK / WRITE OK
 - Canonical prompt and manifest fetched from GitHub
 - Real PNG persistence: 9/9
-- PNG validation: pending post-commit fetch-back at report creation time
+- PNG validation: PASSED — 9/9 fetched back from GitHub; PNG signature, dimensions 941×1672, non-empty binary content and SHA-256 equality confirmed
+- Output commit: `6be3682083254c34c4c3dffecb234fb395d554a0`
 
 ## Completed
 
