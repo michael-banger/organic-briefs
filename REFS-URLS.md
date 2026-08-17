@@ -4,12 +4,12 @@ Images PNG directement lisibles. Remplace bridge-b64/*.b64 (contournement du rep
 
 ## spiraledazur
 
-- `CROCHET-BIRKIN-STYLE.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/CROCHET-BIRKIN-STYLE.png
+Jeu nettoyé le 2026-08-17. Tout ce qui n'est pas listé ici a été archivé et ne doit plus être utilisé.
+
 - `FOUR-TOUT-BAG.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/FOUR-TOUT-BAG.png
 - `GRANDMA-HANDBAG-V2.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/GRANDMA-HANDBAG-V2.png
-- `HANBAG-REF-3.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANBAG-REF-3.png
+- `HANBAG-COQUILLAGE-REF.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANBAG-COQUILLAGE-REF.png
 - `HANDBAG-AVATARS-REF.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANDBAG-AVATARS-REF.png
-- `LEMON-BLOSSOM.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/LEMON-BLOSSOM.png
 - `MARGUERITE-BLANC.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-BLANC.png
 - `MARGUERITE-BLEU-MARINE.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-BLEU-MARINE.png
 - `MARGUERITE-JAUNE.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-JAUNE.png
@@ -17,11 +17,8 @@ Images PNG directement lisibles. Remplace bridge-b64/*.b64 (contournement du rep
 - `MARGUERITE-VIOLET.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MARGUERITE-VIOLET.png
 - `MEUF-HANDBAG-V2.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MEUF-HANDBAG-V2.png
 - `MONOPRIX-RAYON.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MONOPRIX-RAYON.png
-- `NEW-HANDBAG-ALL-COLORS.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/NEW-HANDBAG-ALL-COLORS.png
 - `SAC-COWGIRL-REF1.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/SAC-COWGIRL-REF1.png
 - `SAC-COWGIRL-REF2.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/SAC-COWGIRL-REF2.png
-- `SHELL-BLOOM.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/SHELL-BLOOM.png
-- `SUNSET-RIVIERA.png` — https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/SUNSET-RIVIERA.png
 
 ## troputile
 

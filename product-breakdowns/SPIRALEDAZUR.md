@@ -36,6 +36,22 @@ Un coloris par vidéo. Jamais deux coloris du même sac dans le même montage.
 - Les **anses**, qui restent intactes et attachées.
 - Aucun prix, aucun texte, aucun logo rendu dans l'image.
 
+
+## Sac coquillage — référence corrigée le 2026-08-17
+
+**`HANBAG-COQUILLAGE-REF.png` est la seule référence valable du sac coquillage.**
+`SHELL-BLOOM.png` a été archivé : c'était un autre sac, et il a servi par erreur au brief du 17/08.
+
+Ce que montre la planche : sac en **grosse maille crochet blanc pur**, forme de coquillage nautile
+avec des **côtes rayonnantes** et une **rosace en spirale** au centre, **anse ronde en corde
+blanche épaisse** avec **mousquetons dorés**, **chaîne de perles nacrées amovible** en bandoulière,
+doublure crème. Six vues : trois trois-quarts, macro sur la rosace, macro sur le mousqueton et la
+chaîne de perles, macro sur l'ouverture et la doublure.
+
+Ce qui ne doit jamais dériver : la **grosse maille** (pas du fil fin), les **côtes rayonnantes**,
+la **rosace centrale**, la **corde blanche** de l'anse, les **mousquetons dorés**, la **chaîne de
+perles**. Blanc pur — ce sac n'a ni fleur crochet, ni pompon, contrairement au Marguerite.
+
 ## Avatar
 
 Sans référence d'avatar fournie : belle femme brune, châtain ou blonde, **tenue d'été assortie au
