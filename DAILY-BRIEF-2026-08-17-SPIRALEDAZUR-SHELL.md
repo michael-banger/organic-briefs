@@ -1,143 +1,67 @@
-# DAILY BRIEF — SPIRALEDAZUR — SAC COQUILLAGE — publication 2026-08-17
+# DAILY BRIEF - SPIRALEDAZUR - SAC COQUILLAGE CORRIGE - 2026-08-17
 
-**Brief de génération.** Distinct du brief `DAILY-BRIEF-2026-08-17-SPIRALEDAZUR.md`, qui lui ne
-contient que du montage sur rushs existants. Les deux tournent la même nuit.
+Status: **corrige apres review Yann**. Les anciennes references `SHELL-BLOOM`, kaki et fleur/pompon sont interdites pour ce brief.
 
-- Marché **FR**. Lane **KLING** — start frames 9:16 par ChatGPT, puis image-to-video, audio coupé.
-- Produit : **sac coquillage** (`SHELL-BLOOM`), pas le sac Marguerite.
-- 3 posts, **une variante de coloris par post** : blanc, kaki, blanc.
+- Marche : FR.
+- Generation : ChatGPT manuel cote Yann pour start frames, puis video seulement apres passe vision et go explicite.
+- Produit : `HANBAG-COQUILLAGE-REF.png` uniquement.
+- Coloris : blanc pur uniquement. Aucun kaki tant que les planches couleur n'existent pas.
+- CTA : `Commentez « Soleil » pour recevoir le lien`.
+- Objectif start frames : rendu iPhone 17 Pro Max, net, organique, comme une video Instagram filmee par une personne qui tient fermement son telephone. Peu de flou, pas de bokeh cinema, pas de profondeur de champ marquee.
 
-## Le concept — on reproduit le gagnant du compte
+## References obligatoires
 
-Ces 3 vidéos rejouent **la vidéo la plus vue du compte** (~200 K vues et plus), celle du magasin :
-on voit le rayon, une main prend le sac, l'achat se fait. On ne réinvente rien. On change le
-produit, le coloris et le décor, la mécanique reste identique.
-
-**Analyse préalable obligatoire, à la charge de Hermès** : aller chercher ce reel sur le compte
-`@spiraledazur`, l'analyser **image par image** (`/youtube-watcher` ou `frame-by-frame-method`),
-et en extraire le vrai découpage — nombre de plans, durée de chaque plan, échelle de plan, moment
-exact où la main entre dans le cadre, moment du hook, densité de foule, cadence de coupe.
-Le découpage ci-dessous est une reconstruction à partir de ce qui est déjà verrouillé au vault ;
-**s'il diverge de l'analyse réelle, l'analyse réelle gagne** et le montage suit le vrai reel.
-
-Référence de cadence et de densité déjà verrouillée pour tout plan d'ouverture rayon, marché ou
-stand : le reel `https://www.instagram.com/reel/Db1EvUxRzpo/`.
-
-## Humain à l'écran — règle de ce brief
-
-Le moins possible, et **jamais de face**. Mains, avant-bras, silhouettes de dos ou coupées au
-cadre. Si une personne apparaît, ce doit être **légitime dans la scène** — quelqu'un qui fouille
-le rayon, quelqu'un qui passe — exactement comme dans le reel d'origine. Rien de posé, rien de
-frontal. La fluidité prime sur la présence humaine.
-
-## Références
-
-| Slug | Rôle | URL brute |
+| Slug | Role | URL brute |
 |---|---|---|
-| `SHELL-BLOOM` | **géométrie du sac, verrou produit** | https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/SHELL-BLOOM.png |
-| `MONOPRIX-RAYON` | décor retail français | https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MONOPRIX-RAYON.png |
+| `HANBAG-COQUILLAGE-REF` | verrou produit du sac coquillage blanc | https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/HANBAG-COQUILLAGE-REF.png |
+| `MONOPRIX-RAYON` | decor retail francais dense | https://raw.githubusercontent.com/michael-banger/organic-briefs/main/refs/spiraledazur/MONOPRIX-RAYON.png |
 
-Ce que montre `SHELL-BLOOM` : sac en crochet en forme de coquillage, corps côtelé en éventail,
-teinte crème/ivoire, anse ronde souple, anneaux dorés, **fleur crochet corail**, **perle nacrée**
-et **pompon pêche** suspendus. C'est le coloris « blanc ».
+Ce que montre `HANBAG-COQUILLAGE-REF` : grosse maille crochet blanc pur, forme nautile a cotes rayonnantes, rosace spirale centrale, anse corde blanche epaisse, mousquetons dores, chaine de perles nacrees amovible, doublure creme. Aucune fleur corail, aucun pompon.
 
-> **Point ouvert, une seule question, à trancher demain — n'attends pas pour produire.**
-> Il n'existe **aucune planche du sac coquillage en kaki**. Le seul kaki du portefeuille est sur le
-> sac Marguerite seau (`MARGUERITE-VERT`, vert sauge), qui est un autre modèle. Le post 2 est donc
-> briefé comme *coquillage en fil kaki*, géométrie verrouillée par `SHELL-BLOOM` et couleur donnée
-> au prompt. Si tu voulais en fait le seau vert sauge, dis-le et on bascule le post 2 dessus.
+## Cadence de reference a repliquer
 
-Le décor de retail français doit se lire comme un Monoprix, des Galeries Lafayette, un Zara ou un
-H&M. Jamais un entrepôt générique.
+Reference Spiraledazur 16/08 `DcHDsr9NFeY` : 13,66 s, 8 plans, premier plan 1,7 s.
+- Rayon reel avec foule de femmes.
+- Main qui attrape le sac en rayon.
+- Etiquette prix 59,99 EUR visible a l'ecran au moins une fois.
+- Interieur du sac avec un iPhone glisse dedans pour l'echelle.
+- Plan final rue haussmannienne parisienne, femme de dos qui s'eloigne.
 
----
+## POST 1 - rayon pris d'assaut
 
-## POST 1 — Blanc — le rayon pris d'assaut
+- `post_id: 1`
+- `hook_overlay:` **Les filles ne marchez pas
+FONCEZ en Magasin 👜**
+- `caption:` Commentez « Soleil » pour recevoir le lien. Le sac coquillage blanc qu'on croirait sorti d'une boutique de createur.
+- `hashtags:` #saccoquillage #sacencrochet #modeete #paris
+- Durée cible : 12,0 a 12,8 s, 8 plans.
 
-- `lane: KLING` · `post_id: 1` · `colorway: blanc (crème/ivoire)` · `pattern: P4 + P1`
-- `hook_overlay:` **"J'ai cru que c'était une boutique de créatrice"**
-- `caption:` "Il est parti en 2 jours la dernière fois 🥹 Commentez « Coquillage » pour le lien"
-- `cta_keyword:` **Coquillage** — écrit entre **guillemets français « »**, jamais entre apostrophes
-- `hashtags:` #sacencrochet #faitmain #crochet #shopping
+Scenes start frame, anglais, max 3 refs :
+1. Retail scroll stopper, 1,5 s. A dense French retail handbag aisle, many women crowded around the shelf, several hands reaching toward this white crochet shell bag, product visible from frame one. iPhone 17 Pro Max organic Instagram realism, sharp, firm handheld phone, no text, no logo. Refs: `HANBAG-COQUILLAGE-REF`, `MONOPRIX-RAYON`.
+2. Hand grabs this bag from the shelf, price tag area visible and plausible, 59,99 EUR will be added as edit overlay if needed. No face. Refs: `HANBAG-COQUILLAGE-REF`, `MONOPRIX-RAYON`.
+3. Close-up of the shell ribs and spiral center in hand, white crochet stays thick and pure white. Refs: `HANBAG-COQUILLAGE-REF`.
+4. Checkout/table handling, hands only, this bag on counter, no food, no random text. Refs: `HANBAG-COQUILLAGE-REF`.
+5. Interior proof, one iPhone sliding inside this bag for scale. Refs: `HANBAG-COQUILLAGE-REF`.
+6. Strap/perle chain close-up, pearl chain and gold clasps visible, no drift. Refs: `HANBAG-COQUILLAGE-REF`.
+7. Back-view summer outfit leaving a Paris retail street, bag visible at hip. Refs: `HANBAG-COQUILLAGE-REF`.
+8. Final Paris haussmannian street payoff, woman from behind walks away, best frame at end for replay. Refs: `HANBAG-COQUILLAGE-REF`.
 
-**Scène 1 — le rayon, foule dense**
-> A busy French department store handbag aisle, a large dense crowd of many women browsing the
-> racks, shoulders overlapping, natural movement, warm store lighting, shelves of woven and
-> crochet bags. Shot from chest height, slightly over a shoulder. No faces toward camera.
-> Vertical 9:16, photorealistic, no text, no logo, no watermark.
-> Refs : `MONOPRIX-RAYON`.
+## POST 2 - terrasse parisienne
 
-**Scène 2 — la main saisit ce sac**
-> Close on a store shelf where this crochet shell-shaped bag sits among other bags. Reproduce this
-> bag exactly as in the reference: fan-ribbed shell body, cream ivory crochet, round soft handle,
-> gold rings, coral crochet flower charm, pearl bead and peach tassel. A woman's hand and forearm
-> enter from the right and take it off the shelf. Only hand and forearm visible, summer sleeve.
-> Warm store lighting. Vertical 9:16, photorealistic, no face, no text, no logo, no watermark.
-> Refs : `SHELL-BLOOM`, `MONOPRIX-RAYON`.
+- `hook_overlay:` **On dirait une trouvaille
+de boutique a Paris 👜**
+- `caption:` Commentez « Soleil » pour recevoir le lien. Blanc, coquillage, crochet : le detail qui change une tenue simple.
+- Durée cible : 10,8 a 12,0 s, 8 plans.
+- Same product lock, no drink/food as focus, product visible in first second, Paris terrace/chair/haussmannian street.
 
-**Scène 3 — l'achat**
-> The same store, at the counter: this crochet shell bag resting on the checkout surface next to a
-> card terminal, a hand placing a card on the terminal. Reproduce this bag exactly as in the
-> reference. Only hands and forearms visible. Warm store lighting. Vertical 9:16, photorealistic,
-> no face, no text, no logo, no watermark.
-> Refs : `SHELL-BLOOM`.
+## POST 3 - objection vers payoff
 
-Prompt vidéo, après passe vision : 1. la foule bouge en continu, la caméra dérive lentement le
-long du rayon, aucune coupe ; 2. la main entre, saisit le sac, le sort du rayon d'un seul geste,
-la maille crochet doit rester lisible pendant le mouvement ; 3. la main pose la carte, le sac ne
-bouge pas. Anatomie des mains à vérifier en QC sur les scènes 2 et 3.
+- `hook_overlay:` **Elle m'a dit que personne
+ne porterait ca 👜**
+- `caption:` Commentez « Soleil » pour recevoir le lien. Finalement c'est exactement le genre de sac qu'on remarque.
+- Durée cible : 11,5 a 12,8 s, 8 plans.
+- Product first, hands and back views, no face-carried scene, final payoff in Paris street.
 
----
+## Passe vision obligatoire
 
-## POST 2 — Kaki — le même rayon, autre lumière
-
-- `lane: KLING` · `post_id: 2` · `colorway: kaki` · `pattern: P4 + P1`
-- `hook_overlay:` **"Personne ne devine qu'il est fait main"**
-- `caption:` "Vous le prendriez en blanc ou en kaki ? 🥹 Commentez « Coquillage » pour le lien"
-- `cta_keyword:` **Coquillage**, entre guillemets français « »
-- `hashtags:` #sacencrochet #faitmain #crochet #modeete
-
-Même découpage en 3 plans que le post 1, **décor changé** : un marché de créatrices en extérieur
-plutôt qu'un grand magasin, fin d'après-midi, lumière chaude et rasante. Foule dense obligatoire
-sur le plan d'ouverture. **Aucune nourriture, aucun étal alimentaire dans le champ.**
-
-Instruction de couleur, à ajouter aux 3 prompts, la géométrie restant verrouillée par la référence :
-> Reproduce this bag exactly as in the reference — same fan-ribbed shell shape, same round handle,
-> same gold rings, same flower charm, pearl bead and tassel — but crocheted in a **muted khaki /
-> olive yarn** instead of cream. Only the yarn colour changes. Nothing else about the bag changes.
-
----
-
-## POST 3 — Blanc — la version terrasse
-
-- `lane: KLING` · `post_id: 3` · `colorway: blanc (crème/ivoire)` · `pattern: P1`
-- `hook_overlay:` **"Le sac qu'on croise en terrasse à Paris"**
-- `caption:` "Fait main, et il tient tout 👜 Commentez « Coquillage » pour le lien"
-- `cta_keyword:` **Coquillage**, entre guillemets français « »
-- `hashtags:` #paris #terrasse #sacencrochet #faitmain
-
-Variante aspirationnelle : ouverture sur une terrasse parisienne en fin de journée, le sac posé
-sur une chaise en rotin à côté d'un café, puis une main qui le reprend en partant, puis un macro
-sur la maille et le pompon. Pas de foule sur ce post. Toujours aucun visage.
-
----
-
-## Règles qui s'appliquent aux 3 posts
-
-- « this bag », jamais « a crochet bag like… ». Aucun nom de marque dans un prompt.
-- 3 références maximum par image. `SHELL-BLOOM` est la référence produit sur **tous** les plans où
-  le sac est visible — c'est elle qui empêche la dérive de forme.
-- La **maille crochet** doit rester lisible. Si elle devient du tissu lisse, la génération est ratée.
-- Tenue d'été sur toute silhouette visible, aucun fragment d'hiver.
-- Aucun texte dans l'image. Le hook est un overlay de montage, permanent, ≥ 95 % de la durée.
-- Montage 8-12 s, musique mixée dans le rendu, plan prix d'une seconde en fin de séquence.
-- Passe vision obligatoire sur chaque start frame avant d'écrire le prompt vidéo.
-
-## Format des guillemets — verrou d'écriture
-
-Dans **toute** caption, le mot-clé déclencheur ManyChat s'écrit entre **guillemets français
-« »**, avec l'espace insécable d'usage : `Commentez « Coquillage » pour le lien`.
-
-Jamais d'apostrophes simples `'Coquillage'`, jamais de guillemets droits `"Coquillage"`, jamais de
-guillemets anglais `"Coquillage"`. Un mot-clé mal encadré se lit mal et casse le réflexe de
-commentaire. Cette règle vaut pour toutes les marques et tous les briefs.
+Chaque start frame reelle est analysee avant prompt video. Mauvais produit, mauvaise couleur, texte parasite, nourriture/boisson qui vole le plan ou decor non francais = REGEN. Ne jamais compenser au prompt video.

@@ -1,65 +1,51 @@
-# Product breakdown — @carblazz
+# Product breakdown - @carblazz
 
-- **Marché** : US, anglais américain.
-- **Produit** : horloge murale décorative sur thème automobile.
-- **Niche** : **décoration de maison pour passionnés d'automobile.** Le client n'a pas forcément
-  la voiture. Il veut afficher sa passion chez lui.
-- **Statut** : lancement, priorité 1 à égalité avec Spiraledazur.
+- **Marche** : FR, francais parle naturel. Ancien classement US invalide depuis le correctif du 17/08.
+- **Compte** : bio francaise, captions francaises, CTA ManyChat francais.
+- **CTA** : `Commentez « V12 » pour recevoir les infos`.
+- **Produit** : horloges murales decoratives sur theme automobile.
+- **Niche** : decoration de maison pour passionnes d'automobile. Le client n'a pas forcement la voiture. Il veut afficher sa passion chez lui.
+- **Statut** : relance active, priorite 1 a egalite avec Spiraledazur.
 
 ## Ce que le produit est, physiquement
 
-Une horloge murale ronde, à quartz, cadran unique, aiguilles heures/minutes/secondes, lunette
-fine, faible épaisseur, fixation murale par un trou au dos. Le thème automobile est **dans le
-cadran**, pas dans la forme : chaque coloris rejoue une pièce automobile différente.
+Une horloge murale ronde, a quartz, cadran unique, aiguilles heures/minutes/secondes, lunette fine, faible epaisseur, fixation murale par un trou au dos. Le theme automobile est dans le cadran, pas dans la forme.
 
-Cinq coloris, tous documentés par une planche 7 vues dans `refs/carblazz/`. **Un coloris par
-vidéo. Jamais deux horloges dans le même montage.**
+Cinq coloris, tous documentes par une planche 7 vues dans `refs/carblazz/`. **Un coloris par video**, sauf contradiction non tranchee avec la reference du 16/08 qui montre deux coloris. Tant que Yann n'a pas tranche, les nouveaux briefs restent un coloris par video.
 
-| Slug | Ce que rejoue le cadran | Notes de génération |
+| Slug | Ce que rejoue le cadran | Notes de generation |
 |---|---|---|
-| `horloge-carbone` | jante alliage en fibre de carbone vue de face, disque de frein et **étrier jaune** visibles derrière les rayons, aiguilles dorées fines, chiffres blancs 1-12, lunette noire | Le plus spectaculaire des cinq. C'est celui qui supporte un reveal. Le tissage du carbone doit rester lisible en macro — s'il devient un aplat noir, la génération est ratée. |
-| `horloge-compteur` | compteur de vitesse ancien : cadran noir, index blancs, chiffres 10 à 120 km/h, points orange à 12/3/6/9, fenêtre d'odomètre `170884`, seconde fenêtre `1984`, trotteuse blanche fine | Porte une **marque automobile tierce** sous le 12. On la reproduit si on montre le produit réel ; on ne construit jamais un hook, une caption ou une revendication autour. Les deux fenêtres de chiffres sont un détail signature : si elles disparaissent, l'objet n'est plus le bon. |
-| `horloge-metal-noir` | disque de frein, métal brossé noir | Le grain du métal doit rester visible sous une lumière rasante. |
-| `horloge-metal-rouge` | disque de frein, métal rouge | Le rouge ne doit jamais dériver vers l'orange ou le bordeaux. |
-| `horloge-bois-f1` | thème bois / F1 | — |
-| `horloge-packaging` | boîte retail | Scènes de déballage ou de livraison uniquement. **Jamais le produit héros.** |
+| `horloge-carbone` | jante alliage en fibre de carbone vue de face, disque de frein et etrier jaune visibles derriere les rayons, aiguilles dorees fines, chiffres blancs 1-12, lunette noire | Le plus spectaculaire. Le tissage carbone doit rester lisible en macro. |
+| `horloge-compteur` | compteur de vitesse ancien : cadran noir, index blancs, chiffres 10 a 120 km/h, points orange, fenetres `170884` et `1984`, trotteuse blanche fine | Porte une marque automobile tierce visible sur le produit reel. Ne jamais construire un hook ou une revendication autour. |
+| `horloge-metal-noir` | disque de frein, metal brosse noir | Le grain du metal doit rester visible sous lumiere rasante. |
+| `horloge-metal-rouge` | disque de frein, metal rouge | Le rouge ne doit pas deriver orange/bordeaux. |
+| `horloge-bois-f1` | theme bois / F1 | Decor salon course ou bureau. |
+| `horloge-packaging` | boite retail | Scenes de deballage uniquement, jamais produit heros. |
 
-## Ce qui ne doit jamais dériver
+## Verrous video Carblazz
 
-- La **rondeur et la finesse** de l'objet. Ce n'est ni une pendule épaisse, ni une roue posée au mur.
-- Le **cadran du coloris cité**, à l'identique de la planche. Une horloge carbone dont l'étrier
-  jaune a disparu n'est plus le produit.
-- L'**échelle**. C'est un objet mural d'environ la taille d'une horloge de cuisine, pas une pièce
-  de garage grandeur nature. La scène doit permettre de lire cette échelle au moins une fois.
-- Le produit est **une décoration d'intérieur**. Jamais dans un habitacle, jamais fixé sur une
-  carrosserie, jamais un accessoire embarqué.
+- Produit visible des le premier frame sur les formats de relance.
+- Des mains dans presque tous les plans. Aucun visage porteur.
+- L'horloge n'apparait jamais d'un coup sur un mur. Des mains la posent.
+- Seule l'aiguille des secondes bouge, la plus fine. Les heures/minutes restent immobiles. A defaut, aucune aiguille ne bouge.
+- Produit = decoration murale d'interieur, jamais accessoire d'habitacle.
+- Format final : 1080x1920, 30 fps, 10 a 13 s, 8 a 10 plans.
 
-## Ce que ce produit n'est pas
+## Decors qui marchent
 
-LED d'intérieur de voiture, support de téléphone, tapis de sol, housse, parfum, éclairage de
-seuil, accessoire de tableau de bord, sticker de carrosserie. Tout ça est hors niche.
+- Appartement haussmannien parisien : moulures, cheminee marbre, miroir dore, parquet point de Hongrie, fenetre balcon fer forge.
+- Garage parisien avec belles voitures : supercar visible en arriere-plan, mur disponible, lumiere realiste.
+- Bureau / salon de passionne auto, jamais rendu publicitaire sombre.
 
-## Décors qui marchent
+## Hook gagnant a decliner
 
-Garage domestique de nuit sous une réglette, bureau à domicile, salon un soir de course, mur nu
-au-dessus d'un bureau. Toujours **un mur vide identifiable avant le produit** : la mécanique
-gagnante ouvre sur l'environnement, pas sur l'objet.
+Format transplante de Spiraledazur et valide sur la relance du 16/08 :
 
-## Humain à l'écran
+`Les fans de voitures ne marchez pas FONCEZ en Boutique`
 
-Jamais de visage entier. Mains et avant-bras uniquement, manches sobres. Trois des quatre
-meilleurs concurrents du batch d'août sont sous 20 % de visage, le meilleur est à 0 %.
+Au moins la moitie d'un batch Carblazz doit decliner ce format plutot qu'inventer un hook neuf.
 
-## Concurrent de référence
+## Contradictions a trancher par Yann
 
-`@carwake.co` — 179,2 K abonnés, 6,67 M de vues le 03/08 sur « Comment "Lights" if you need this ».
-**Il vend un autre produit** : aucun concurrent direct n'existe sur l'horloge murale auto. On
-transplante sa mécanique — décor automobile identifiable, reveal, hashtags de tribu — pas son
-produit. Le brief doit le dire explicitement.
-
-Patterns prioritaires : **P1** (produit en contexte aspirationnel), **P4** (fandom lock, hashtags
-de tribu type #f1, #jdm, #dodgechallenger), **P5** (send-this-to, angle cadeau).
-
-## CTA
-
-CTA bio explicite. **Pas de CTA à mot-clé** tant qu'aucun auto-DM ne tourne.
+1. La reference Carblazz du 16/08 montre deux coloris dans la meme video, alors que le verrou produit dit un coloris par video.
+2. Le lien en bio pointe sur `carblazz.com/products/lampes-resine-art`, pas sur une horloge murale.
