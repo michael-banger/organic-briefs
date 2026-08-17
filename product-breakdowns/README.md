@@ -7,16 +7,19 @@ génération.
 
 ## Priorité, au 2026-08-17
 
+Portefeuille resserré à **3 comptes actifs** par décision de Yann du 2026-08-17.
+
 | Rang | Compte | Produit | État |
 |---|---|---|---|
 | **1** | `@spiraledazur` | sac crochet Marguerite | actif, seul compte avec un gagnant enregistré |
 | **1** | `@carblazz` | horloges murales déco auto | actif, lancement — priorité égale à Spiraledazur |
-| 3 | `@onsimplifie` | douche chien portable | froid, refs prêtes |
-| 4 | `@myteaovo` | pots de plante déco | froid, refs prêtes |
-| 5 | `@troputile` | sac boisson | froid, refs prêtes |
-| — | `@whiskeysmok` | non tranché | **ne rien produire** |
+| 3 | `@onsimplifie` | douche chien portable | actif, refs prêtes |
+| — | `@troputile` | sac boisson | **EN PAUSE.** Compte Instagram archivé, produit abandonné. Ne rien produire. Un nouveau produit sera cherché plus tard. |
+| — | `@myteaovo` | pots de plante déco | **statut à confirmer par Yann** — non cité dans l'arbitrage du 17/08. Ne rien produire d'ici là. |
+| — | `@whiskeysmok` | non tranché | ne rien produire |
 
-Les deux marques de rang 1 sont les seules au périmètre des nuits du 17 et du 18/08.
+**Périmètre des nuits du 17 et du 18/08** : `@spiraledazur` et `@carblazz` uniquement.
+`@onsimplifie` reste au portefeuille mais n'entre pas dans ce rattrapage.
 
 ## Règle d'or du workflow automatisé — pas d'Elements
 

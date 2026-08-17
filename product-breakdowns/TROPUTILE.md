@@ -2,7 +2,10 @@
 
 - **Marché** : FR / US.
 - **Produit** : sac à boisson — sac de transport isotherme pour boissons.
-- **Statut** : froid, refs prêtes, hors périmètre des nuits du 17 et 18/08.
+- **Statut : EN PAUSE depuis le 2026-08-17.** Compte Instagram archivé par Yann, produit abandonné.
+  **Ne rien produire sur cette marque.** Un nouveau produit sera cherché plus tard — niche large,
+  logique de showcase virale, performant toute l'année et pas seulement en saison. Les références
+  et le breakdown ci-dessous restent en place au cas où le sac boisson serait relancé.
 
 > Attention : une note de juin attribuait « Ear Cleaner » à ce compte. **Ce produit est mort.**
 
