@@ -5,21 +5,37 @@ concernée**, par Hermès comme par ChatGPT. Le breakdown dit ce qu'est physique
 comment il fonctionne, et ce qui ne doit jamais dériver. C'est ce qui évite les surprises à la
 génération.
 
-## Priorité, au 2026-08-17
+## Deux niveaux, lus dans cet ordre
+
+1. **`_REGLES-GENERIQUES-PRODUCTION.md`** — les 16 règles valables pour toutes les marques :
+   verrou d'échelle réelle, produit avant composition, interaction physique, continuité d'état,
+   mécanique de packaging, preuve de matière, une scène une fonction, lieu lisible, la start frame
+   est le contrat, minimalisme du mouvement, verrou des détails, fail avant dépense de crédit,
+   gate d'animabilité, accessoire subordonné, planche de planification différente de la frame de
+   génération, dominance de la référence. Plus les champs obligatoires d'une scène de brief et les
+   deux QA gates génériques.
+2. **`[MARQUE].md`** — ce que le produit est physiquement et ce qui ne doit jamais dériver.
+   **Prime sur le fichier générique** en cas de conflit sur un point spécifique au produit.
+
+Écrit le 2026-08-20 après audit : une génération lancée sans avoir lu ces deux niveaux est la
+cause directe des régénérations demandées les 14, 17 et 18/08.
+
+## Priorité, au 2026-08-20
 
 Portefeuille resserré à **4 comptes actifs** par décision de Yann du 2026-08-17.
 
 | Rang | Compte | Produit | État |
 |---|---|---|---|
-| **1** | `@spiraledazur` | sac crochet Marguerite | actif, seul compte avec un gagnant enregistré |
+| **1** | `@spiraledazur` | sac coquillage (tête) + sac Marguerite | actif, seul compte avec un gagnant enregistré |
 | **1** | `@carblazz` | horloges murales déco auto | actif, lancement — priorité égale à Spiraledazur |
-| 3 | `@onsimplifie` | douche chien portable | actif, refs prêtes |
+| **1** | `@onsimplifie` | table de lavage chien portable | **actif depuis le 2026-08-20**, remis dans le périmètre par Yann |
 | — | `@troputile` | sac boisson | **EN PAUSE.** Compte Instagram archivé, produit abandonné. Ne rien produire. Un nouveau produit sera cherché plus tard. |
 | 4 | `@myteaovo` | pots de plante déco | actif — confirmé par Yann le 17/08 |
 | — | `@whiskeysmok` | non tranché | ne rien produire |
 
-**Périmètre des nuits du 17 et du 18/08** : `@spiraledazur` et `@carblazz` uniquement.
-`@onsimplifie` reste au portefeuille mais n'entre pas dans ce rattrapage.
+**Périmètre de production quotidien depuis le 2026-08-20** : `@spiraledazur`, `@carblazz` et
+`@onsimplifie`, trois marques, tous les jours. C'est le périmètre que couvrent les
+`STANDING-BRIEF-*.md` à la racine du dépôt.
 
 ## Règle d'or du workflow automatisé — pas d'Elements
 
