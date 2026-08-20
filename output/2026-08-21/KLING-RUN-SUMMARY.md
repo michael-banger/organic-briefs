@@ -19,4 +19,4 @@
 
 ## Persistence verification
 
-Every output is a real non-empty PNG blob in GitHub. Each file was fetched back after commit and validated for PNG signature, dimensions and byte-for-byte SHA-256 equality with the uploaded local binary.
+Every output is a real non-empty PNG blob in GitHub. Each file was fetched back after commit and validated for a non-empty base64 payload, the canonical PNG signature, and exact equality between the fetched Git blob SHA and the uploaded blob SHA. Local files were independently validated as 941×1672 PNG images before upload.
