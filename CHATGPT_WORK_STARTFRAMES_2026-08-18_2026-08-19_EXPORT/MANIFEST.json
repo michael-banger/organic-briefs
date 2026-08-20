@@ -1,0 +1,169 @@
+{
+  "export_name": "CHATGPT_WORK_STARTFRAMES_2026-08-18_2026-08-19_EXPORT",
+  "created_at": "2026-08-20T03:58:00+02:00",
+  "source": "ChatGPT Work",
+  "repository": "michael-banger/organic-briefs",
+  "hermes_target_path": "/opt/data/profiles/organic-ai-operator/workspace/hermes-organic-ai-operator/ops/start-frames/2026-08-18-19-chatgpt-ready/",
+  "rules": {
+    "no_invention": true,
+    "only_verified_generated_assets": true,
+    "blocked_assets_must_not_go_to_video_generation": true
+  },
+  "summary": {
+    "ready_videos": 0,
+    "blocked_videos": 3,
+    "total_startframes": 9,
+    "new_startframes_2026_08_19": 0
+  },
+  "source_provenance": {
+    "generation_commit": "6be3682083254c34c4c3dffecb234fb395d554a0",
+    "run_summary_2026_08_18": "output/2026-08-18/KLING-RUN-SUMMARY.md",
+    "run_summary_2026_08_19": "output/2026-08-19/KLING-RUN-SUMMARY.md",
+    "product_breakdown": "product-breakdowns/CARBLAZZ.md",
+    "non_exploitable_marker": "output/2026-08-18/CARBLAZZ/_NON-EXPLOITABLE.md",
+    "corrective_brief_not_part_of_export": "DAILY-BRIEF-2026-08-21-CARBLAZZ.md"
+  },
+  "date_notes": {
+    "2026-08-19": "No new PNG generated. The run deduplicated the 2026-08-18 Carblazz batch and reported no eligible new brief."
+  },
+  "videos": [
+    {
+      "date": "2026-08-18",
+      "account": "carblazz",
+      "video_id": "VIDEO-01",
+      "status": "BLOCKED",
+      "blockers": ["FAIL_PRODUCT_IDENTITY", "FAIL_MARKET"],
+      "product": "horloge-bois-f1",
+      "product_truth": "Red/white/black F1 livery wall clock with top-down F1 single-seater, black numerals, gold hub, black bezel, flat matte face, no wood, no glass.",
+      "hook": "Every F1 fan I know has the same empty wall",
+      "caption": "Race weekend starts on the wall. 🕒 Link in bio",
+      "manychat_keyword": "CLOCK",
+      "market_language_original": "US / English",
+      "market_language_current_truth": "FR / French",
+      "brief_file": "2026-08-18/carblazz/VIDEO-01/brief.md",
+      "scene_order_file": "2026-08-18/carblazz/VIDEO-01/scene-order.md",
+      "startframes": [
+        {
+          "scene": 1,
+          "file": "2026-08-18/carblazz/VIDEO-01/startframes/SCENE-01.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-1/IMG-SCENE1.png",
+          "source_blob_sha": "9807d0f04fddf4d136d60a865c15716d41473336",
+          "source_size_bytes": 467270,
+          "motion_prompt": "très léger travelling avant, la lueur du téléviseur pulse faiblement",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 2,
+          "file": "2026-08-18/carblazz/VIDEO-01/startframes/SCENE-02.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-1/IMG-SCENE2.png",
+          "source_blob_sha": "6b3c5337179fa643364fb77d7601ce717023b139",
+          "source_size_bytes": 473150,
+          "motion_prompt": "même axe, le produit est là, caméra qui monte",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 3,
+          "file": "2026-08-18/carblazz/VIDEO-01/startframes/SCENE-03.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-1/IMG-SCENE3.png",
+          "source_blob_sha": "6f9a0625bd4ff356d23f5d8016ee09241924d1ff",
+          "source_size_bytes": 707878,
+          "motion_prompt": "la lumière glisse sur le bois, l'aiguille avance, aucun morphing du cadran",
+          "duration_seconds": 5
+        }
+      ],
+      "notes": "BLOCKED: the 18/08 brief and generated product identity are invalid. Do not send these frames to Kling/Higgsfield."
+    },
+    {
+      "date": "2026-08-18",
+      "account": "carblazz",
+      "video_id": "VIDEO-02",
+      "status": "BLOCKED",
+      "blockers": ["FAIL_PRODUCT_IDENTITY", "FAIL_MARKET"],
+      "product": "horloge-metal-noir",
+      "product_truth": "Glossy black 5-spoke alloy-wheel wall clock, yellow brake caliper, brake disc, tyre-sidewall bezel with moulded lettering and gold emblems, white numerals and hands, reflective glass front.",
+      "hook": "Nobody notices the wall until it's this one",
+      "caption": "Brushed metal, brake-disc face, zero noise. 🕒 Link in bio",
+      "manychat_keyword": "CLOCK",
+      "market_language_original": "US / English",
+      "market_language_current_truth": "FR / French",
+      "brief_file": "2026-08-18/carblazz/VIDEO-02/brief.md",
+      "scene_order_file": "2026-08-18/carblazz/VIDEO-02/scene-order.md",
+      "startframes": [
+        {
+          "scene": 1,
+          "file": "2026-08-18/carblazz/VIDEO-02/startframes/SCENE-01.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-2/IMG-SCENE1.png",
+          "source_blob_sha": "f386278a17c415d3e73752a4fe60207b00211860",
+          "source_size_bytes": 385934,
+          "motion_prompt": "la lampe vacille à peine, caméra fixe",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 2,
+          "file": "2026-08-18/carblazz/VIDEO-02/startframes/SCENE-02.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-2/IMG-SCENE2.png",
+          "source_blob_sha": "5e36179a6d3667ffcb0fa7129fcee3dfe47304e7",
+          "source_size_bytes": 402162,
+          "motion_prompt": "travelling avant lent vers le produit",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 3,
+          "file": "2026-08-18/carblazz/VIDEO-02/startframes/SCENE-03.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-2/IMG-SCENE3.png",
+          "source_blob_sha": "7a0c4d53ec40065beebd015a2a0141b5dfaf42c1",
+          "source_size_bytes": 577783,
+          "motion_prompt": "la lumière balaye le métal, l'aiguille avance",
+          "duration_seconds": 5
+        }
+      ],
+      "notes": "BLOCKED: the 18/08 prompt incorrectly described the product as brushed metal / machining texture. Do not send these frames to Kling/Higgsfield."
+    },
+    {
+      "date": "2026-08-18",
+      "account": "carblazz",
+      "video_id": "VIDEO-03",
+      "status": "BLOCKED",
+      "blockers": ["FAIL_PACKAGING_MECHANICS", "FAIL_WRONG_VARIANT", "FAIL_STATE_CONTINUITY", "FAIL_MARKET"],
+      "product": "horloge-metal-noir + horloge-packaging",
+      "product_truth": "Metal-noir clock plus flat 400x400 mm matte-black sleeve with circular cut-out and white blazz wordmark; inner drawer slides sideways, no lid.",
+      "hook": "Send this to whoever still buys him socks",
+      "caption": "One box. Solved. 🕒 Link in bio",
+      "manychat_keyword": null,
+      "market_language_original": "US / English",
+      "market_language_current_truth": "FR / French",
+      "brief_file": "2026-08-18/carblazz/VIDEO-03/brief.md",
+      "scene_order_file": "2026-08-18/carblazz/VIDEO-03/scene-order.md",
+      "startframes": [
+        {
+          "scene": 1,
+          "file": "2026-08-18/carblazz/VIDEO-03/startframes/SCENE-01.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-3/IMG-SCENE1.png",
+          "source_blob_sha": "37ef8bf882a7cd096a2e91a0756b44c2d1b58908",
+          "source_size_bytes": 442538,
+          "motion_prompt": "la caméra approche la boîte, rien ne bouge d'autre",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 2,
+          "file": "2026-08-18/carblazz/VIDEO-03/startframes/SCENE-02.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-3/IMG-SCENE2.png",
+          "source_blob_sha": "61235d58d05f0b27a5be6c5bc49640eef5834fe7",
+          "source_size_bytes": 449822,
+          "motion_prompt": "les mains soulèvent le couvercle d'un seul geste continu — vérifier l'anatomie des mains en QC",
+          "duration_seconds": 5
+        },
+        {
+          "scene": 3,
+          "file": "2026-08-18/carblazz/VIDEO-03/startframes/SCENE-03.png",
+          "source_file": "output/2026-08-18/CARBLAZZ/POST-3/IMG-SCENE3.png",
+          "source_blob_sha": "f1addb93306bb14aa4502be6e9a685801caa473b",
+          "source_size_bytes": 609906,
+          "motion_prompt": "léger recul, la trotteuse avance",
+          "duration_seconds": 5
+        }
+      ],
+      "notes": "BLOCKED: original scene 2 motion itself is invalid because the real packaging is a side-sliding drawer, not a lid. The batch also contains the wrong clock variant and skips the required held/installation state. Do not execute the historical motion prompts."
+    }
+  ]
+}
