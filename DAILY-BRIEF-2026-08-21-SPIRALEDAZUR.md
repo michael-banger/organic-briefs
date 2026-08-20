@@ -1,4 +1,4 @@
-# DAILY BRIEF — SPIRALEDAZUR — publication 2026-08-21
+# DAILY BRIEF - SPIRALEDAZUR - publication 2026-08-21
 
 **Rattrapage.** Le brief du 18/08 etait un brief de montage sur stock, sans generation, et il n'y
 a rien eu les 19 et 20/08. Ce brief relance la generation sur le **sac coquillage**, produit de
@@ -30,13 +30,13 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 1 — La ruee en boutique — pattern P4
+## POST 1 - La ruee en boutique - pattern P4
 
 - `lane: KLING` · `post_id: 1` · `pattern: P4`
 - `hook_overlay:` **"J'ai cru que c'etait une boutique de creatrice"**
 - `caption:` "Vous l'auriez pris quelle couleur ? Lien en bio" · `hashtags:` #sacencrochet #crochet #faitmain #shopping
 
-**SCENE 1 — le rayon**
+**SCENE 1 - le rayon**
 - `SCENE FUNCTION` : scroll stopper + preuve sociale.
 - `START STATE` : rayon de grande surface francaise, **rempli uniquement du sac coquillage blanc**,
   plusieurs exemplaires identiques alignes. **Foule dense de femmes en tenue d'ete** devant le
@@ -53,7 +53,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `HANBAG-COQUILLAGE-REF`, `MONOPRIX-RAYON`.
 
-**SCENE 2 — la prise**
+**SCENE 2 - la prise**
 - `SCENE FUNCTION` : interaction + desirabilite.
 - `START STATE` : meme rayon, **une seule main attrape un sac** par l'anse en corde. **Aucune
   etiquette de prix visible** nulle part dans le cadre.
@@ -63,7 +63,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. `MUST REMAIN IDENTICAL` : rayon, lumiere, foule au fond, manucure, manche.
 - Refs : `HANBAG-COQUILLAGE-REF`, `MONOPRIX-RAYON`.
 
-**SCENE 3 — la sortie**
+**SCENE 3 - la sortie**
 - `SCENE FUNCTION` : echelle sur corps + styling.
 - `START STATE` : une femme quitte l'univers boutique, **sac porte a l'epaule par l'anse en
   corde**, tenue d'ete, vue de trois-quarts arriere, visage non entier.
@@ -75,14 +75,14 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 2 — La preparation parisienne — pattern P1
+## POST 2 - La preparation parisienne - pattern P1
 
 - `lane: KLING` · `post_id: 2` · `pattern: P1`
 - `hook_overlay:` **"Arrete, personne va acheter ca"**  (hook objection, seul gagnant enregistre
   du compte, a decliner et jamais a remplacer)
 - `caption:` "Soyez honnetes, vous l'achèteriez ? Lien en bio" · `hashtags:` #faitmain #crochet #petitecreatrice #sacencrochet
 
-**SCENE 1 — la chambre parisienne**
+**SCENE 1 - la chambre parisienne**
 - `SCENE FUNCTION` : projection lifestyle.
 - `START STATE` : chambre elegante mais vecue, **le sac pose sur le lit**, ombre de contact
   visible sous le sac, une femme en tenue d'ete a proximite, visage non entier.
@@ -94,7 +94,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `HANBAG-COQUILLAGE-REF`, `MEUF-HANDBAG-V2`.
 
-**SCENE 2 — le packing**
+**SCENE 2 - le packing**
 - `SCENE FUNCTION` : preuve d'usage et de capacite.
 - `START STATE` : le sac deja bien positionne sur le lit, **ouverture lisible**, doublure creme
   visible. **Une** main descend un **petit objet cosmetique ferme** dans l'ouverture. Le sac reste
@@ -107,7 +107,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme lit, meme lumiere, meme manucure, meme tenue.
 - Refs : `HANBAG-COQUILLAGE-REF`.
 
-**SCENE 3 — what's in my bag**
+**SCENE 3 - what's in my bag**
 - `SCENE FUNCTION` : capacite + curiosite.
 - `START STATE` : vue haute legerement plongeante, le sac au centre, **plusieurs petits objets
   feminins disposes autour**, tous compatibles avec son volume apparent.
@@ -119,13 +119,13 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 3 — La rue haussmannienne — pattern P5
+## POST 3 - La rue haussmannienne - pattern P5
 
 - `lane: KLING` · `post_id: 3` · `pattern: P5`
 - `hook_overlay:` **"Envoie ca a celle qui cherche un sac depuis 3 mois"**
 - `caption:` "Elle va le reconnaitre tout de suite. Lien en bio" · `hashtags:` #paris #sacencrochet #modeete #faitmain
 
-**SCENE 1 — le depart**
+**SCENE 1 - le depart**
 - `SCENE FUNCTION` : transition, mise en mouvement.
 - `START STATE` : trottoir parisien devant une porte cochere, une femme en tenue d'ete **passe
   l'anse sur son epaule**, vue de trois-quarts arriere.
@@ -134,7 +134,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `HANBAG-COQUILLAGE-REF`, `MEUF-HANDBAG-V2`.
 
-**SCENE 2 — la marche**
+**SCENE 2 - la marche**
 - `SCENE FUNCTION` : projection + mouvement naturel.
 - `START STATE` : **femme de dos** marchant dans une rue haussmannienne, sac clairement visible et
   lisible, lumiere naturelle de fin d'apres-midi.
@@ -143,7 +143,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme femme, meme tenue, memes cheveux, meme lumiere.
 - Refs : `HANBAG-COQUILLAGE-REF`, `MEUF-HANDBAG-V2`.
 
-**SCENE 3 — hero shot golden hour**
+**SCENE 3 - hero shot golden hour**
 - `SCENE FUNCTION` : money shot, boucle visuelle.
 - `START STATE` : le sac tres lisible au premier plan, exterieur parisien doux en arriere-plan,
   golden hour. Produit dominant et stable.

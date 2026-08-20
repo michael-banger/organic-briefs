@@ -1,4 +1,4 @@
-# AUDIT PIPELINE ORGANIC — 2026-08-20 02:00 CEST
+# AUDIT PIPELINE ORGANIC - 2026-08-20 02:00 CEST
 
 Audit demande par Yann : verifier que tout ce qui devait etre genere les 18 et 19 aout l'a bien
 ete, pour Spiraledazur, Carblazz et Onsimplifie. Ce n'est pas un constat theorique : les fichiers
@@ -19,22 +19,34 @@ fois. **Ce n'est pas elle qui a echoue.**
 
 ## 2. Cause racine
 
-Deux causes cumulees, mesurees, pas supposees.
+Trois causes cumulees, mesurees, pas supposees.
 
-**Cause 1 — Hermes n'a aucune automatisation organic active.**
+**Cause 1 - Hermes n'a aucune automatisation organic active.**
 Sur le VPS `hermes-linux-paris`, `profiles/organic-ai-operator/cron/jobs.json` contient 16 jobs.
 **Les 7 jobs `[ORGANIC-AI]` sont tous `enabled: false`**, derniers passages entre le 29/06 et le
 22/07. Seuls les 5 jobs `[WEBIZEO]` et 2 jobs `[INFRA]` tournent encore, quotidiennement, sans
 incident. Aucun job n'a jamais eu pour role d'ecrire un `DAILY-BRIEF`.
 
-**Cause 2 — Hermes ne peut pas ecrire dans `organic-briefs`.**
+**Cause 2 - Hermes ne peut pas ecrire dans `organic-briefs`.**
 Verifie dans le conteneur : pas de clone du depot, pas de `.gitconfig`, pas de
 `.git-credentials`, pas de `gh`, aucune variable `GH_*`. Tous les briefs dates existants ont ete
 pousses a la main. Le CLI Higgsfield n'existe que sous `/tmp/hfcli/node_modules/.bin/higgsfield`,
 c'est-a-dire dans un repertoire efface au prochain redemarrage du conteneur.
 
-Consequence : la chaine dependait d'un depot manuel quotidien. Des qu'il n'a pas eu lieu, tout
-s'est arrete en silence.
+**Cause 3 - le perimetre de marques des deux taches ChatGPT etait faux.**
+Dans `SYSTEM/PROMPT-STARTFRAMES.md` (tache A, lane KLING), les cles de marque supportees etaient
+`ONSIMPLIFIE`, `MYTEAOVO`, `CARBLAZZ`, avec la consigne explicite **`Skip Carblazz until its
+canonical brief and manifest explicitly unblock it`**. `SPIRALEDAZUR` n'y figurait **pas du tout**.
+Il etait assigne a la tache B, lane SEEDANCE, avec Troputile. Or la lane Seedance est dormante
+depuis la perte de l'Unlimited le 15/08, et Troputile est archive.
+
+Autrement dit : la marque numero 1 du portefeuille n'avait plus aucune lane vivante, et la marque
+ex-aequo numero 1 etait explicitement mise de cote. Le brief Spiraledazur du 18/08 n'a jamais pu
+etre lu par la tache qui tournait.
+
+Consequence : la chaine dependait d'un depot manuel quotidien, sur un perimetre de marques qui ne
+correspondait plus a la realite du portefeuille. Des qu'il n'y a pas eu de depot manuel, tout s'est
+arrete en silence.
 
 ## 3. Defauts de qualite trouves dans ce qui a ete genere
 
@@ -64,7 +76,8 @@ Trois des cinq descriptions de cadran du breakdown Carblazz etaient fausses.
 | Sac coquillage promu produit de tete, logique des mains, foule, Paris lisible, accessoire subordonne, miroirs, sequence 8 scenes validee, QA | `product-breakdowns/SPIRALEDAZUR.md` |
 | Marque remise en production, echelle du plateau contre taille du chien, trous reverifies, continuite sec/mouille, aucun packaging invente, QA | `product-breakdowns/ONSIMPLIFIE.md` |
 | Descriptions produits corrigees, packaging, coquillage, perimetre standing brief | `MANIFEST.md` |
-| Fallback `STANDING-BRIEF`, gate preflight, passe QA vision, prompt video de preservation, nom de fichier unique | `organic-ai-workflow/SYSTEM/PROMPT-STARTFRAMES.md` |
+| Perimetre corrige (`SPIRALEDAZUR` ajoute et prioritaire, `CARBLAZZ` desormais actif), fallback `STANDING-BRIEF`, gate preflight, passe QA vision, nom de fichier unique | `organic-ai-workflow/SYSTEM/PROMPT-STARTFRAMES.md` |
+| Lane SEEDANCE declaree dormante, plus aucune marque active, sortie propre en `NO_ACTIVE_SCOPE` au lieu de faux blocages | `organic-ai-workflow/SYSTEM/PROMPT-STORYBOARDS.md` |
 | Briefs permanents, rotation deterministe par date | `STANDING-BRIEF-CARBLAZZ.md`, `STANDING-BRIEF-SPIRALEDAZUR.md`, `STANDING-BRIEF-ONSIMPLIFIE.md` (nouveaux) |
 | Rattrapage date, avec les corrections integrees | `DAILY-BRIEF-2026-08-21-{CARBLAZZ,SPIRALEDAZUR,ONSIMPLIFIE}.md` (nouveaux) |
 

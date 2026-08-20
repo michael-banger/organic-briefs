@@ -1,4 +1,4 @@
-# DAILY BRIEF — CARBLAZZ — publication 2026-08-21
+# DAILY BRIEF - CARBLAZZ - publication 2026-08-21
 
 **Ce brief est un rattrapage correctif.** Il reprend les 3 posts du 18/08, qui ont bien ete
 generes mais avec des produits qui n'existent pas, et il les rejoue avec les descriptions
@@ -38,14 +38,14 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 1 — Livree F1 — pattern P4 (fandom lock)
+## POST 1 - Livree F1 - pattern P4 (fandom lock)
 
 - `lane: KLING` · `post_id: 1` · `colorway: horloge-bois-f1` · `pattern: P4`
 - `hook_overlay:` **"Les fans de F1 ont tous le meme mur vide"**
 - `caption:` "Le week-end de course commence sur le mur. Lien en bio"
 - `cta:` `Commentez « V12 » pour recevoir les infos` · `hashtags:` #f1 #formule1 #passionauto #decoauto #salon
 
-**SCENE 1 — le mur vide**
+**SCENE 1 - le mur vide**
 - `SCENE FUNCTION` : hook, installer le manque.
 - `START STATE` : salon un soir de week-end de course, un grand televiseur en sourdine affiche des
   couleurs de sport auto floues, canape bas, lampe chaude, **large pan de mur gris chaud vide sur
@@ -57,7 +57,7 @@ Lecture obligatoire avant de generer :
 - `NEGATIVE` : aucun produit, aucun texte, aucun visage.
 - Refs : aucune.
 
-**SCENE 2 — les mains posent**
+**SCENE 2 - les mains posent**
 - `SCENE FUNCTION` : transition d'etat, poids et echelle.
 - `START STATE` : le meme mur, **deux mains tiennent l'horloge contre le mur**, doigts autour de
   la lunette, elle est **encore au contact des mains**, pas encore lachee.
@@ -72,7 +72,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. `MUST REMAIN IDENTICAL` : mur, televiseur, lampe, lumiere, mobilier.
 - Refs : `horloge-bois-f1`.
 
-**SCENE 3 — hero mounted**
+**SCENE 3 - hero mounted**
 - `SCENE FUNCTION` : payoff.
 - `START STATE` : l'horloge est en place sur le mur, les mains sont sorties du cadre, la lueur du
   televiseur rebondit doucement sur la face mate.
@@ -82,14 +82,14 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 2 — Jante noire — pattern P1 (contexte aspirationnel, garage)
+## POST 2 - Jante noire - pattern P1 (contexte aspirationnel, garage)
 
 - `lane: KLING` · `post_id: 2` · `colorway: horloge-metal-noir` · `pattern: P1`
 - `hook_overlay:` **"Le garage etait deja beau. Il manquait ca."**
 - `caption:` "Quand le mur raconte la meme histoire que la voiture. Lien en bio"
 - `cta:` `Commentez « V12 » pour recevoir les infos` · `hashtags:` #garage #supercar #passionauto #decoauto #jante
 
-**SCENE 1 — le garage**
+**SCENE 1 - le garage**
 - `SCENE FUNCTION` : scroll stopper aspirationnel.
 - `START STATE` : garage de passionne, beton poli, lignes LED credibles, etabli, rangements, une
   **belle voiture de sport** en arriere-plan legerement floue, **mur libre au premier plan**.
@@ -98,7 +98,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : aucune.
 
-**SCENE 2 — les mains ajustent**
+**SCENE 2 - les mains ajustent**
 - `SCENE FUNCTION` : le produit prend sa place, echelle.
 - `START STATE` : le meme mur, **deux mains ajustent l'horloge** deja presque en place, petite
   correction d'alignement, doigts sur la lunette.
@@ -116,7 +116,7 @@ Lecture obligatoire avant de generer :
   meme plaque, meme garage, meme lumiere.**
 - Refs : `horloge-metal-noir`.
 
-**SCENE 3 — macro material proof**
+**SCENE 3 - macro material proof**
 - `SCENE FUNCTION` : preuve de matiere.
 - `START STATE` : macro sur le cadran, lumiere rasante. Doivent etre lisibles : le **brillant de
   la jante**, l'**etrier jaune**, le **disque de frein**, le **lettrage moule du flanc de pneu**,
@@ -128,7 +128,7 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 3 — Le deballage — pattern P5 (send-this-to / cadeau)
+## POST 3 - Le deballage - pattern P5 (send-this-to / cadeau)
 
 - `lane: KLING` · `post_id: 3` · `colorway: horloge-metal-noir` · `pattern: P5`
 - `hook_overlay:` **"Envoie ca a celui qui offre encore des chaussettes"**
@@ -136,7 +136,7 @@ Lecture obligatoire avant de generer :
 - `cta:` aucun mot-cle, bait de partage. Ne jamais melanger un bait de partage et un mot-cle
   ManyChat dans le meme post. · `hashtags:` #cadeauhomme #decoauto #passionauto #ideecadeau
 
-**SCENE 1 — la boite fermee**
+**SCENE 1 - la boite fermee**
 - `SCENE FUNCTION` : curiosite.
 - `START STATE` : le packaging **pose a plat** sur une table en bois, lumiere du jour chaude,
   personne ne le touche encore.
@@ -148,7 +148,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `horloge-packaging`.
 
-**SCENE 2 — le tiroir coulisse**
+**SCENE 2 - le tiroir coulisse**
 - `SCENE FUNCTION` : preuve produit + reveal.
 - `START STATE` : **une main a plat stabilise l'enveloppe, l'autre tire le tiroir interieur
   lateralement**, sorti d'environ un tiers. On apercoit le cadran noir de la jante a l'interieur.
@@ -162,7 +162,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme table, meme lumiere, memes manches.
 - Refs : `horloge-packaging`, `horloge-metal-noir`.
 
-**SCENE 3 — tenue a deux mains, hors de la boite**
+**SCENE 3 - tenue a deux mains, hors de la boite**
 - `SCENE FUNCTION` : echelle et matiere. **C'est le plan qui manquait au 18/08** : l'horloge ne
   passe jamais de la boite au mur.
 - `START STATE` : **deux mains** tiennent l'horloge sortie du tiroir, **legerement inclinee** pour

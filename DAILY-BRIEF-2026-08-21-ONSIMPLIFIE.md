@@ -1,4 +1,4 @@
-# DAILY BRIEF — ONSIMPLIFIE — publication 2026-08-21
+# DAILY BRIEF - ONSIMPLIFIE - publication 2026-08-21
 
 **Premier brief depuis le 2026-08-06.** La marque est remise en production sur decision de Yann du
 2026-08-20. Elle avait des references pretes et aucun brief : c'est la marque la plus en retard du
@@ -35,13 +35,13 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 1 — Probleme puis soulagement — pattern P7 + couche P6
+## POST 1 - Probleme puis soulagement - pattern P7 + couche P6
 
 - `lane: KLING` · `post_id: 1` · `colorway: gray` · `pattern: P7` · chien : `ons-prop-chien-petit`
 - `hook_overlay:` **"Mon chien detestait le bain. Jusqu'a ce truc."**
 - `caption:` "Il ne se debat plus. Lien en bio" · `hashtags:` #chien #toilettage #astucechien #proprietairedechien
 
-**SCENE 1 — le refus**
+**SCENE 1 - le refus**
 - `SCENE FUNCTION` : hook probleme.
 - `START STATE` : salle de bain francaise carrelee, baignoire visible, **le petit chien au sol,
   reticent, qui recule**, une main tente doucement de le guider par le flanc. Le produit n'est pas
@@ -53,7 +53,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `ons-lieu-sdb`, `ons-prop-chien-petit`.
 
-**SCENE 2 — la pose sur le plateau**
+**SCENE 2 - la pose sur le plateau**
 - `SCENE FUNCTION` : transition d'etat, le produit entre en scene.
 - `START STATE` : **deux mains posent le chien sur le plateau**, ses quatre pattes touchent la
   toile, il est deja plus calme. Le produit est deploye, stable au sol.
@@ -69,7 +69,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme salle de bain, meme chien, meme lumiere, chien encore **sec**.
 - Refs : `ons-pr-douchechien-gray`, `ons-prop-chien-petit`, `ons-lieu-sdb`.
 
-**SCENE 3 — le soulagement et la preuve**
+**SCENE 3 - le soulagement et la preuve**
 - `SCENE FUNCTION` : payoff emotionnel et preuve produit dans le meme plan.
 - `START STATE` : le chien **debout sur le plateau, mouille, detendu, la queue qui remue**, une
   main le rince a la douchette. **L'eau s'ecoule visiblement a travers la maille et par les trous
@@ -83,13 +83,13 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 2 — La preuve mecanique — pattern P3
+## POST 2 - La preuve mecanique - pattern P3
 
 - `lane: KLING` · `post_id: 2` · `colorway: blue` · `pattern: P3`
 - `hook_overlay:` **"Personne ne regarde ou passe l'eau"**
 - `caption:` "L'eau part toute seule, rien ne stagne. Lien en bio" · `hashtags:` #astucechien #toilettage #chien #objetutile
 
-**SCENE 1 — le produit seul, deploye**
+**SCENE 1 - le produit seul, deploye**
 - `SCENE FUNCTION` : lisibilite produit.
 - `START STATE` : le plateau **deploye**, seul, sur le carrelage d'une salle de bain francaise,
   lumiere naturelle laterale. Personne dans le cadre.
@@ -100,7 +100,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `ons-pr-douchechien-blue`, `ons-lieu-sdb`.
 
-**SCENE 2 — macro avec action**
+**SCENE 2 - macro avec action**
 - `SCENE FUNCTION` : preuve de matiere. **Ce n'est pas un macro passif** : il y a une action.
 - `START STATE` : macro sur la toile, **une main verse de l'eau dessus** avec un petit seau ou une
   douchette, l'eau traverse la maille et sort par les trous.
@@ -109,7 +109,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme salle de bain, meme lumiere.
 - Refs : `ons-pr-douchechien-blue`.
 
-**SCENE 3 — le pliage**
+**SCENE 3 - le pliage**
 - `SCENE FUNCTION` : preuve de commodite, payoff.
 - `START STATE` : **deux mains replient le pietement**, le produit devient plat et fin, prêt a
   ranger.
@@ -122,13 +122,13 @@ Lecture obligatoire avant de generer :
 
 ---
 
-## POST 3 — Le lavage exterieur — pattern P6
+## POST 3 - Le lavage exterieur - pattern P6
 
 - `lane: KLING` · `post_id: 3` · `colorway: pink` · `pattern: P6` · chien : `ons-prop-chien-golden`
 - `hook_overlay:` **"Plus jamais la salle de bain a nettoyer apres"**
 - `caption:` "Dehors, 5 minutes, zero degat. Lien en bio" · `hashtags:` #chien #jardin #astucechien #toilettage
 
-**SCENE 1 — le contexte**
+**SCENE 1 - le contexte**
 - `SCENE FUNCTION` : hook contexte.
 - `START STATE` : terrasse ou jardin francais credible, fin d'apres-midi, le plateau rose deploye
   sur les dalles, un tuyau d'arrosage a cote, le golden **sec, assis a distance**, l'air peu
@@ -138,7 +138,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : none.
 - Refs : `ons-pr-douchechien-pink`, `ons-prop-chien-golden`.
 
-**SCENE 2 — le chien monte**
+**SCENE 2 - le chien monte**
 - `SCENE FUNCTION` : transition d'etat.
 - `START STATE` : **deux mains guident le golden** sur le plateau, ses **quatre pattes posees et
   visibles** sur la toile. Il est deja detendu une fois dessus.
@@ -149,7 +149,7 @@ Lecture obligatoire avant de generer :
 - `CONTINUITY FROM` : 1. Meme jardin, meme lumiere, chien encore sec.
 - Refs : `ons-pr-douchechien-pink`, `ons-prop-chien-golden`.
 
-**SCENE 3 — le sechage heureux**
+**SCENE 3 - le sechage heureux**
 - `SCENE FUNCTION` : payoff.
 - `START STATE` : le chien **encore sur le plateau**, mouille, une main passe une serviette sur
   son dos, poil ebouriffe, queue qui remue, gouttes qui tombent a travers la maille sur les dalles.
