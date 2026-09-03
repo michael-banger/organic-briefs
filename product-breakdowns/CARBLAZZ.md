@@ -1,5 +1,7 @@
 # Product breakdown - @carblazz
 
+> **LOCK 2026-08-20 - SOURCE PRIORITAIRE ACTIVE.** Avant toute vision pass, prompt Kling/Higgsfield, generation ou QC, appliquer `product-breakdowns/CARBLAZZ-LOCK-2026-08-20.md`. Cette lock a ete fournie par Yann apres reverification image par image et prime sur les descriptions ci-dessous si contradiction. Ne jamais faire confiance au slug : ouvrir `refs/carblazz/[slug].png` et decrire ce qui est reellement visible.
+
 > Revision majeure du 2026-08-20. Les descriptions de cadran des cinq coloris ont ete **verifiees
 > une par une contre les planches de reference** et trois d'entre elles etaient fausses. Les
 > briefs des 17 et 18/08 ont donc genere des produits qui n'existent pas. Lire la table ci-dessous

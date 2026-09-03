@@ -1,5 +1,7 @@
 # Product breakdown - @spiraledazur
 
+> **LOCK 2026-08-20 - SOURCE PRIORITAIRE ACTIVE.** Pour toute production Spiraledazur par defaut, produire le sac coquillage et appliquer `product-breakdowns/SPIRALEDAZUR-LOCK-2026-08-20.md` avant vision pass, prompt Kling/Higgsfield, generation ou QC. `HANBAG-COQUILLAGE-REF.png` est l'identity/geometry source ; `SHELL-BLOOM.png` est archive. Ne jamais transposer les regles Marguerite au Coquillage.
+
 > Revision du 2026-08-20. Integre les learnings de la session de production du sac coquillage
 > validee par Yann : les 8 start frames de la Video 1 ont ete validees une par une, apres une
 > boucle de regenerations dont chaque cause est desormais une regle ci-dessous.
